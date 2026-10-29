@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2F919EC63D653FE5}vest/AVS_Modular/Data/MI_Radio_WR_MPU5_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

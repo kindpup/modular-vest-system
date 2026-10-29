@@ -1,0 +1,44 @@
+MetaFileClass {
+ Name "{FD899D37CE2D6291}vest/AVS_Modular/Vest_CRYE_AVS_V1_BacKPanel_Pouch_L.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AB85E1A53DDC544}" {
+     SourceMaterial "MI_Pouch_Spiritus_OCP"
+     AssignedMaterial "{3EFA6A046AFB440D}vest/AVS_Modular/Data/MI_Pouch_Spiritus_OCP.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Vest_CRYE_AVS_V1_BacKPanel_Pouch_L {
+    }
+   }
+   Common TXOCommonClass "{6AB85E1A5118A43A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB85E1A5118A4BB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB85E1A5118A55D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB85E1A5118A572}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB85E1A5118A51D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB85E1A5118A53B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

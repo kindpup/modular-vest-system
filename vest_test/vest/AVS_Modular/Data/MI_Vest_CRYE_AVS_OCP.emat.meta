@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B181DD21BF7F5B9A}vest/AVS_Modular/Data/MI_Vest_CRYE_AVS_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

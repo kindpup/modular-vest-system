@@ -1,0 +1,102 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AB85E1D00A0BD76}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM CRYE AVS V1 Modular Vest"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{E849A1C8CE6510ED}vest/AVS_Modular/ACM_Exports/Vest_CRYE_AVS_V1_Base_WithSlots.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo TQ {
+     InheritParentSkeleton 1
+     AreaType ACM_TQ_2 "{6ABAF37187FF9656}" {
+     }
+    }
+    LoadoutSlotInfo ANPRC152_Antena_L {
+     InheritParentSkeleton 1
+     AreaType ACM_Radio_antena "{6ABB0256AEE8DFB8}" {
+     }
+    }
+    LoadoutSlotInfo ANPRC152_Pocuh {
+     Prefab "{D147AC3BD2384A8F}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_ANPRC152_Pocuh.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Radio_Pouch "{6ABB0256D7A87F93}" {
+     }
+    }
+    LoadoutSlotInfo BacKPanel {
+     Prefab "{8F7170D2A4514E45}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo BacKPanel_Pouch_L {
+     Prefab "{6DE10BE5FB8D4F37}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_L.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo BacKPanel_Pouch_M {
+     Prefab "{4AA3AD9CE1024BAD}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_M.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo BacKPanel_Pouch_V_01 {
+     Prefab "{D8D5999F9E124433}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_V_01.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo BacKPanel_Pouch_V_02 {
+     Prefab "{09F8EF3225F14600}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_V_02.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo Chemlight {
+     Prefab "{85F4456194074EF1}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Chemlight.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo Placard {
+     Prefab "{41CBAAC7149741CC}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Placard.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo Pouch_SS_S {
+     Prefab "{5CEAFADFD4F447D5}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Pouch_SS_S.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo PTT {
+     Prefab "{2BDAA9F708B14B22}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_PTT.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo RDC_Mount {
+     Prefab "{0D86BE5AD36A42FB}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_RDC_Mount.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo RDC_Patch {
+     Prefab "{3CB78A23186D4F03}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_RDC_Patch.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo RDC_Tablet {
+     Prefab "{466834ABBB1042CA}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_RDC_Tablet.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo Scisors {
+     Prefab "{E4672F1D6059481A}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Scisors.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo TQ_Pouch {
+     Prefab "{FA29BB43173C48FA}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_TQ_Pouch.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo Tubular_Nylon {
+     Prefab "{083818582D684527}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Tubular_Nylon.et"
+     InheritParentSkeleton 1
+    }
+   }
+   WornModel "{09AD28D6BA44976E}vest/AVS_Modular/Vest_CRYE_AVS_V1.xob"
+   ItemModel "{09AD28D6BA44976E}vest/AVS_Modular/Vest_CRYE_AVS_V1.xob"
+   DeflatedModel "{E849A1C8CE6510ED}vest/AVS_Modular/ACM_Exports/Vest_CRYE_AVS_V1_Base_WithSlots.xob"
+  }
+ }
+}

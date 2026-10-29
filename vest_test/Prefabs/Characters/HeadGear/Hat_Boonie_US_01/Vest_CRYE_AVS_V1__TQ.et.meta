@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C001DF2C390302C5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Vest_CRYE_AVS_V1__TQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

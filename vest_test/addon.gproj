@@ -1,0 +1,8 @@
+GameProject {
+ ID "vesttest"
+ GUID "6AB82B41184F2996"
+ TITLE "vest_test"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

@@ -1,0 +1,121 @@
+GameEntity {
+ ID "6AB85E1B281B77FF"
+ components {
+  ParametricMaterialInstanceComponent "{6AB85E1B0C2B32C3}" {
+   UserParamAlpha 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  Persistence "{6AB85E1B0C2B32FA}" {
+  }
+  MeshObject "{6AB85E1B0C2B337D}" {
+   Object "{6B4E7ED9ABA73FE9}vest/AVS_Modular/Vest_CRYE_AVS_V1__TQ.xob"
+   LODFactors {
+   }
+   InheritVisibility 1
+  }
+  RigidBody "{6AB85E1B0C2B336B}" {
+   Mass 1.5
+   LinearDamping 0.2
+   AngularDamping 0.4
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_HeadgearInventoryItemComponent "{6AB85E1B0C2B304E}" {
+   Attributes SCR_ItemAttributeCollection "{6AB85E1B0C2B33A6}" {
+    ItemDisplayName UIInfo "{6AB85E1B0C2B3333}" {
+     Name "#AR-Headgear_BoonieHat_Name"
+     Description "#AR-Headgear_BoonieHat_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AB85E1B0C2B33FC}" {
+     Weight 0.17
+     SizeSetupStrategy Manual
+     ItemVolume 300
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AB85E1B0C2B33B8}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.3
+      FOV 10
+      PreviewWornModel 1
+     }
+     SCR_HeadgearPhysicsObserverAttribute "{6AB85E1B0C2B33B3}" {
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6AB85E1B0C2B3064}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6AB85E1B0C2B3063}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6AB85E1B0C2B3061}" {
+      m_AffiliatedFactionKey "US"
+      m_iOutfitFactionValue 15
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{6AB85E1B0C2B300D}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AB85E1B0C2B3013}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AB85E1B0C2B3017}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AB85E1B0C2B300B}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AB85E1B0C2B30D5}" {
+   AreaType ACM_TQ_2 "{6AB85E1B595B7390}" {
+   }
+   WornModel "{6B4E7ED9ABA73FE9}vest/AVS_Modular/Vest_CRYE_AVS_V1__TQ.xob"
+   ItemModel "{6B4E7ED9ABA73FE9}vest/AVS_Modular/Vest_CRYE_AVS_V1__TQ.xob"
+   DeflatedModel "{6B4E7ED9ABA73FE9}vest/AVS_Modular/Vest_CRYE_AVS_V1__TQ.xob"
+  }
+  ActionsManagerComponent "{6AB85E1B0C2B3170}" {
+   ActionContexts {
+    UserActionContext "{6AB85E1B0C2B3098}" {
+     ContextName "default"
+     Position PointInfo "{6AB85E1B0C2B30F1}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{6AB85E1B0C2B3159}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB85E1B0C2B3085}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" -10
+    }
+    SCR_PickUpItemAction "{6AB85E1B0C2B3179}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB85E1B0C2B3155}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  NwkPhysicsMovementComponent "{6AB85E1B0C2B3176}" {
+  }
+  RplComponent "{6AB85E1B0C2B316D}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AB85E1B0C2B3161}" {
+  }
+ }
+ coords 0 0 0
+}

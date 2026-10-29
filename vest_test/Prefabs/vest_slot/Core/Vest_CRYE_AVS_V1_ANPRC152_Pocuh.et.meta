@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0373DE091F7BCD3F}Prefabs/vest_slot/Core/Vest_CRYE_AVS_V1_ANPRC152_Pocuh.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
