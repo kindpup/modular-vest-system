@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{09AD28D6BA44976E}vest/AVS_Modular/Vest_CRYE_AVS_V1.xob"
+ Name "{09AD28D6BA44976E}vest/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
@@ -7,7 +7,7 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass "{6AB85E1C5297FD3E}" {
      SourceMaterial "MI_Vest_CRYE_AVS_OCP"
-     AssignedMaterial "{B181DD21BF7F5B9A}vest/AVS_Modular/Data/MI_Vest_CRYE_AVS_OCP.emat"
+     AssignedMaterial "{B181DD21BF7F5B9A}vest/Vest_CRYE_AVS_V1/Data/MI_Vest_CRYE_AVS_OCP.emat"
     }
    }
    MeshParams {

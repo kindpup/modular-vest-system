@@ -34,36 +34,50 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
      }
     }
     LoadoutSlotInfo BacKPanel {
-     Prefab "{8F7170D2A4514E45}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel.et"
      InheritParentSkeleton 1
+     AreaType ACM_Back_Plate "{6ABB2D9D99D6E26F}" {
+     }
     }
     LoadoutSlotInfo BacKPanel_Pouch_L {
-     Prefab "{6DE10BE5FB8D4F37}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_L.et"
      InheritParentSkeleton 1
+     AreaType ACM_Bag_SlotArea_Left "{6ABB2D9DDEBC80EF}" {
+     }
     }
     LoadoutSlotInfo BacKPanel_Pouch_M {
      Prefab "{4AA3AD9CE1024BAD}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_M.et"
      InheritParentSkeleton 1
+     AreaType ACM_Bag_SlotArea_Bottom "{6ABB2D9DEEAA9BEC}" {
+     }
     }
     LoadoutSlotInfo BacKPanel_Pouch_V_01 {
      Prefab "{D8D5999F9E124433}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_V_01.et"
      InheritParentSkeleton 1
+     AreaType ACM_Bag_SlotArea_Right "{6ABB2D9E1838A757}" {
+     }
     }
     LoadoutSlotInfo BacKPanel_Pouch_V_02 {
      Prefab "{09F8EF3225F14600}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_BacKPanel_Pouch_V_02.et"
      InheritParentSkeleton 1
+     AreaType ACM_Bag_Pouch_Setup "{6ABB2D9E005207CC}" {
+     }
     }
     LoadoutSlotInfo Chemlight {
      Prefab "{85F4456194074EF1}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Chemlight.et"
      InheritParentSkeleton 1
+     AreaType ACM_Chemlights "{6ABB2D9E07FC9EA2}" {
+     }
     }
     LoadoutSlotInfo Placard {
      Prefab "{41CBAAC7149741CC}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Placard.et"
      InheritParentSkeleton 1
+     AreaType ACM_Vest_Mag_Placard "{6ABB2D9E3292DB5D}" {
+     }
     }
     LoadoutSlotInfo Pouch_SS_S {
      Prefab "{5CEAFADFD4F447D5}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Pouch_SS_S.et"
      InheritParentSkeleton 1
+     AreaType ACM_Belt_Nade_Slot "{6ABB2D9E3E0E642A}" {
+     }
     }
     LoadoutSlotInfo PTT {
      Prefab "{2BDAA9F708B14B22}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_PTT.et"
@@ -94,8 +108,8 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
      InheritParentSkeleton 1
     }
    }
-   WornModel "{09AD28D6BA44976E}vest/AVS_Modular/Vest_CRYE_AVS_V1.xob"
-   ItemModel "{09AD28D6BA44976E}vest/AVS_Modular/Vest_CRYE_AVS_V1.xob"
+   WornModel "{09AD28D6BA44976E}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
+   ItemModel "{09AD28D6BA44976E}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
    DeflatedModel "{E849A1C8CE6510ED}vest/AVS_Modular/ACM_Exports/Vest_CRYE_AVS_V1_Base_WithSlots.xob"
   }
  }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C001DF2C390302C5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Vest_CRYE_AVS_V1__TQ.et"
+ Name "{D3D00B0148F7BBB4}Prefabs/vest_slot/Core/Vest_CRYE_AVS_V1_BacKPanel_Pouch_L.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

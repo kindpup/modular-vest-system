@@ -1,46 +1,5 @@
 //
-//  ACM
-//  ACM Loadout Areas — unified registry
 //
-//  Original ACM-owned script for the modular framework.
-//==================================================================================================
-
-/*!
-	Single authoritative declaration point for every `LoadoutAreaType` owned by
-	ACM Modular Framework.
-
-	Consolidated from:
-	  - Scripts/Game/Loadout/Loadoutareas.c
-	  - Scripts/Game/ACM Loadouts Vest.c
-	  - Scripts/Game/ACM Loadouts Waist.c
-	  - Scripts/Game/ACM_Patch_Loadout.c
-
-	Class names are UNCHANGED — prefabs referencing these areas keep working.
-	Only the file layout and ordering changed.
-
-	Layout rules:
-	  - Sections are grouped by body region / carrier, top to bottom.
-	  - Classes are sorted A-Z within each section.
-	  - One declaration per line, `class X : LoadoutAreaType {};`
-
-	Adding a new area:
-	  1. Declare it in the matching section below (keep A-Z order).
-	  2. Append a family value + mapping in `Loadout/Area Routing Types.c`,
-	     otherwise the area resolves to `ACM_EAreaFamily.NONE` and is skipped
-	     by family-equivalence queries.
-
-	Related, deliberately NOT in this file:
-	  - `ACM_GearMorphSlotInfo` (Scripts/Game/ACM Patch Morph Loadoutslot.c)
-	    is a `LoadoutSlotInfo`, not an area type.
-	  - Add-on mods (Helmets, OPFOR Helmets, Apparel, Backpacks, NV & Lights,
-	    Vehicle Crew Helmets) declare their own areas in their own projects.
-	    Do not move them here — it would make the framework depend on them.
-*/
-
-//------------------------------------------------------------------------------------------------
-// CORE / SHARED
-// Generic areas not bound to a single carrier.
-//------------------------------------------------------------------------------------------------
 class ACM_Accessory : LoadoutAreaType {};
 class ACM_Carabiner : LoadoutAreaType {};
 class ACM_Chemlights : LoadoutAreaType {};
