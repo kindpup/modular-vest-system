@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6ABE12327837F047}" {
+     SourceMaterial "MI_Vest_CRYE_JPC_20_OCP"
+     AssignedMaterial "{E7D9DBC4730DB163}XOB/Vest_CRYE_JPC20_SAW/Data/MI_Vest_CRYE_JPC_20_OCP.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Vest_CRYE_JPC20_SAW {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Vest_CRYE_JPC20_TL {
+     LayerPreset "Character"
+     SurfaceProperties {
+      "{DE262768AD81A12D}Common/Materials/Game/Armor/armor_25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6ABE12327858BF04}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ABE12327858BC7C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ABE12327858BC1B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ABE12327858BC39}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ABE12327858BCD9}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ABE12327858BCC3}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
