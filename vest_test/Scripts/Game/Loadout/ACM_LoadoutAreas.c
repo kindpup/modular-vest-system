@@ -35,7 +35,6 @@ class ACM_Vest_Single_Pouches : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
 class ACM_Fun_Stuff : LoadoutAreaType {};
 
-
 //------------------------------------------------------------------------------------------------
 // VEST — POUCHES & ACCESSORIES
 //------------------------------------------------------------------------------------------------
@@ -44,6 +43,29 @@ class ACM_Shoulder_Accessory : LoadoutAreaType {};
 class ACM_Vest_Belly_Pouch : LoadoutAreaType {};
 class ACM_Vest_Chest_Accessories : LoadoutAreaType {};
 class ACM_Vest_Holster : LoadoutAreaType {};
+
+
+//------------------------------------------------------------------------------------------------
+// AVS_V1_VEST — POUCHES & ACCESSORIES
+//------------------------------------------------------------------------------------------------
+class ACM_VEST_AVS_V1__TQ : LoadoutAreaType {};
+class ACM_VEST_ANPRC152_Antena_L : LoadoutAreaType {}
+class ACM_VEST_AVS_V1_ANPRC152_Pocuh : LoadoutAreaType {}
+class ACM_VEST_AVS_V1_BacKPanel : LoadoutAreaType {}
+class ACM_VEST_AVS_V1_BacKPanel_Pouch_L : LoadoutAreaType {}
+class ACM_VEST_AVS_V1_BacKPanel_Pouch_M : LoadoutAreaType {}
+class ACM_AVS_V1_BacKPanel_Pouch_V_01 : LoadoutAreaType {}
+class ACM_AVS_V1_BacKPanel_Pouch_V_02 : LoadoutAreaType {}
+class ACM_Vest_CRYE_AVS_V1_Chemlight : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_Placard : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_Pouch_SS_S : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_PTT : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_RDC_Patch : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_RDC_Mount : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_Scisors : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_RDC_Tablet : LoadoutAreaType {}
+class ACM_Vest_AVS_V1_TQ_Pouch : LoadoutAreaType {}
+class ACM_Vest_V1_Tubular_Nylon : LoadoutAreaType {}
 
 //------------------------------------------------------------------------------------------------
 // VEST — ARMOR PLATES

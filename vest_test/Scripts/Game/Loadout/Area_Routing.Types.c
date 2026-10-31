@@ -269,4 +269,3 @@ class ACM_AreaRoutingTypes
 		return fa == ResolveFamilyForArea(b);
 	}
 }
-
