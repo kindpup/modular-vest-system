@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0F7DEB0B27A050E0}XOB/Belt_TYR_Gunfighter_MAB_V2/Data/MI_Mag_20R.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

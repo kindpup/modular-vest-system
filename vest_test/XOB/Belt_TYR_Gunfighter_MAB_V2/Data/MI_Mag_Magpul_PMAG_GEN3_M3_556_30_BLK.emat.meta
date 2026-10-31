@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8FA14FCDA6CFD7FD}XOB/Belt_TYR_Gunfighter_MAB_V2/Data/MI_Mag_Magpul_PMAG_GEN3_M3_556_30_BLK.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

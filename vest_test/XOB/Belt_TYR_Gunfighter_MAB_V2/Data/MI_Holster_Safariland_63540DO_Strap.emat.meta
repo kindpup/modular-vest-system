@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{80E67743297CBBA3}XOB/Belt_TYR_Gunfighter_MAB_V2/Data/MI_Holster_Safariland_63540DO_Strap.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
