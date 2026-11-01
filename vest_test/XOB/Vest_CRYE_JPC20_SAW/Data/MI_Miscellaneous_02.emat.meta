@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8967E0D6E8319E06}XOB/Vest_CRYE_JPC20_SAW/Data/MI_Miscellaneous_02.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8DA28984AA025CAF}XOB/JPC20_JTAC/Data/MI_Pouch_SS_Spud_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{000F6FA712075E80}XOB/Vest_CRYE_JPC20_SAW/Data/MI_Pouch_M60_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

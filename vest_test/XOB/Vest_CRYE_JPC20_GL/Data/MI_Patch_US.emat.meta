@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{334DCEC5E976645A}XOB/Vest_CRYE_JPC20_GL/Data/MI_Patch_US.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

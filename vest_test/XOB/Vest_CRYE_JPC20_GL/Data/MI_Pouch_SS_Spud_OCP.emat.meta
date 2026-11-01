@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6BAC0524239DD12C}XOB/Vest_CRYE_JPC20_GL/Data/MI_Pouch_SS_Spud_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

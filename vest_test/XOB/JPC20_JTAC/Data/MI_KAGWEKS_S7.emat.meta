@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{935E48ECBE625BEB}XOB/JPC20_JTAC/Data/MI_KAGWEKS_S7.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

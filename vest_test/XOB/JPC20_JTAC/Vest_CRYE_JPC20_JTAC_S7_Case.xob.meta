@@ -1,0 +1,48 @@
+MetaFileClass {
+ Name "{0D9984600B7E7AD6}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_S7_Case.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AC29998250B5461}" {
+     SourceMaterial "MI_KAGWEKS_S7"
+     AssignedMaterial "{935E48ECBE625BEB}XOB/JPC20_JTAC/Data/MI_KAGWEKS_S7.emat"
+    }
+    MaterialAssignClass "{6AC29998250B5416}" {
+     SourceMaterial "MI_Miscellaneous_01"
+     AssignedMaterial "{72B42E5F62BF67EB}XOB/JPC20_JTAC/Data/MI_Miscellaneous_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Vest_CRYE_JPC20_JTAC_S7_Case {
+    }
+   }
+   Common TXOCommonClass "{6AC299982432CF9F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AC299982432CC63}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AC299982432CC3A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AC299982432CCD8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AC299982432CCC2}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AC299982432CCED}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

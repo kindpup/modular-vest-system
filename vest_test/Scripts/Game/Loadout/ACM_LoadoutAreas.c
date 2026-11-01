@@ -89,6 +89,24 @@ class ACM_Vest_JPC20_SAW_Pouch_Spiritus_S : LoadoutAreaType {}
 class ACM_Vest_JPC20_SAW_Pouch_TQ : LoadoutAreaType {}
 class ACM_Vest_JPC20_SAW_Screwdriver : LoadoutAreaType {}
 class ACM_Vest_JPC20_SAW_TQ : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Pouch_L : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Pouch_R : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Radio_L : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Radio_R : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Patch : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Pouch_CRYE_AVS : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Pouch_SS_S : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_Pouch_SS_Spud : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_S7_Case : LoadoutAreaType {}
+class ACM_Vest_JPC20_GL_AbdomenPanel : LoadoutAreaType {}
+class ACM_Vest_JPC20_GLPMag_Full : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Chemlights : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Patch : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Pouch_Frag_01 : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Pouch_Frag_02 : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_L_Mag : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_R_Mag : LoadoutAreaType {}
+class ACM_Vest_JPC20_Rifle_Pouch_SS_V : LoadoutAreaType {}
 
 //------------------------------------------------------------------------------------------------
 // VEST — ARMOR PLATES

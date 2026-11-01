@@ -1,0 +1,55 @@
+MetaFileClass {
+ Name "{58633A4BE2BEC6F7}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.xob"
+ Configurations {
+  FBXResourceClass PC {
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AC2999825E90767}" {
+     SourceMaterial "MI_Radio_Harris_ANPRC152_OCP"
+     AssignedMaterial "{FC895FFB651C90FA}XOB/JPC20_JTAC/Data/MI_Radio_Harris_ANPRC152_OCP.emat"
+    }
+    MaterialAssignClass "{6AC2999825E90700}" {
+     SourceMaterial "MI_Miscellaneous_01"
+     AssignedMaterial "{72B42E5F62BF67EB}XOB/JPC20_JTAC/Data/MI_Miscellaneous_01.emat"
+    }
+    MaterialAssignClass "{6AC2999825E90703}" {
+     SourceMaterial "MI_Miscellaneous_02"
+     AssignedMaterial "{2C5C071CDD32E9E4}XOB/JPC20_JTAC/Data/MI_Miscellaneous_02.emat"
+    }
+    MaterialAssignClass "{6AC2999825E90706}" {
+     SourceMaterial "MI_EarPro_Comtac_VI_DE"
+     AssignedMaterial "{BE93A44BFC5EC263}XOB/JPC20_JTAC/Data/MI_EarPro_Comtac_VI_DE.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L {
+    }
+   }
+   Common TXOCommonClass "{6AC299982444A52C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AC299982444A5B7}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AC2999824449A47}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AC2999824449A65}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AC2999824449AEE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AC2999824449A8B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2C5C071CDD32E9E4}XOB/JPC20_JTAC/Data/MI_Miscellaneous_02.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
