@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{2A35878B5F74D88C}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_KAGWORKS_S7.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ABF17A8ECA143AC}" {
+     SourceMaterial "MI_Case_KAGWORKS_S7"
+     AssignedMaterial "{D5CB48CA27988383}XOB/Vest_CRYE_AVS_V2/Data/MI_Case_KAGWORKS_S7.emat"
+    }
+    MaterialAssignClass "{6ABF17A8ECA14054}" {
+     SourceMaterial "MI_Radio_Harris_ANPRC152_OCP"
+     AssignedMaterial "{0B04D2BAD3437992}XOB/Vest_CRYE_AVS_V2/Data/MI_Radio_Harris_ANPRC152_OCP.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Vest_CRYE_AVS_V2_KAGWORKS_S7 {
+    }
+   }
+   Common TXOCommonClass "{6ABF17A8EB21A7B6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ABF17A8EB21A43E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ABF17A8EB21A4DD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ABF17A8EB21A57A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ABF17A8EB21A567}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ABF17A8EB21A506}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

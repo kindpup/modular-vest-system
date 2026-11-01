@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0B04D2BAD3437992}XOB/Vest_CRYE_AVS_V2/Data/MI_Radio_Harris_ANPRC152_OCP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

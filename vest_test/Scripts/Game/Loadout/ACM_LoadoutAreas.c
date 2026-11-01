@@ -46,7 +46,7 @@ class ACM_Vest_Holster : LoadoutAreaType {};
 
 
 //------------------------------------------------------------------------------------------------
-// AVS_V1_VEST — POUCHES & ACCESSORIES
+// AVS_VEST_V1 — POUCHES & ACCESSORIES
 //------------------------------------------------------------------------------------------------
 class ACM_VEST_AVS_V1__TQ : LoadoutAreaType {};
 class ACM_VEST_ANPRC152_Antena_L : LoadoutAreaType {}
@@ -66,6 +66,29 @@ class ACM_Vest_AVS_V1_Scisors : LoadoutAreaType {}
 class ACM_Vest_AVS_V1_RDC_Tablet : LoadoutAreaType {}
 class ACM_Vest_AVS_V1_TQ_Pouch : LoadoutAreaType {}
 class ACM_Vest_V1_Tubular_Nylon : LoadoutAreaType {}
+
+//------------------------------------------------------------------------------------------------
+// AVS_VEST_V2 — POUCHES & ACCESSORIES
+//------------------------------------------------------------------------------------------------
+class ACM_Vest_AVS_V2_ANPRC152_Pouch : LoadoutAreaType {}
+class ACM_Vest_AVS_V2_KAGWORKS_S7 : LoadoutAreaType {}
+class ACM_AVS_V2_Pouch_FF : LoadoutAreaType {}
+class ACM_Vest_AVS_V2_Pouch_Spiritus_V : LoadoutAreaType {}
+class ACM_Vest_AVS_V2_PTT : LoadoutAreaType {}
+class ACM_Vest_AVS_V2_TQ : LoadoutAreaType {}
+
+//------------------------------------------------------------------------------------------------
+// JPC_20_VEST — POUCHES & ACCESSORIES
+//------------------------------------------------------------------------------------------------
+class ACM_Vest_JPC20_SAW_Multitool : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_M60_01 : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_M60_02 : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_M60_03 : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_Spirirtus_M : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_Spiritus_S : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Pouch_TQ : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_Screwdriver : LoadoutAreaType {}
+class ACM_Vest_JPC20_SAW_TQ : LoadoutAreaType {}
 
 //------------------------------------------------------------------------------------------------
 // VEST — ARMOR PLATES
