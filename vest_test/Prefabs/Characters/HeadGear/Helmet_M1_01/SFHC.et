@@ -60,6 +60,31 @@ GameEntity : "{EC0071079B219026}Prefabs/Characters/Core/Headgear_Helmet_Base.et"
      AreaType ACM_BatteryPack_PVS31A_L3Harris "{6AC815FA0CB2E754}" {
      }
     }
+    LoadoutSlotInfo BatteryPack_PVS31A_L3Harris_Jack {
+     Prefab "{1E23D5AA2321CC5E}Prefabs/vest_slot/Core/HeadGear/ACM_BatteryPack_PVS31A_L3Harris_Jack.et"
+     AreaType ACM_BatteryPack_PVS31A_L3Harris_Jack "{6AC8450957904249}" {
+     }
+    }
+    LoadoutSlotInfo EarPro_OpsCore_AMP_Mount_Wire {
+     Prefab "{331C7F465C4ECCEB}Prefabs/vest_slot/Core/HeadGear/ACM_EarPro_OpsCore_AMP_Mount_Wire.et"
+     AreaType ACM_EarPro_OpsCore_AMP_Mount_Wire "{6AC8450961ED619F}" {
+     }
+    }
+    LoadoutSlotInfo Mount_G24 {
+     Prefab "{347D9EBB041BFFA2}Prefabs/vest_slot/Core/HeadGear/ACM_Mount_G24.et"
+     AreaType ACM_Mount_G24 "{6AC84509AA76125B}" {
+     }
+    }
+    LoadoutSlotInfo SKM_SHC_V2_Strobe {
+     Prefab "{038224100DC15263}Prefabs/vest_slot/Core/HeadGear/ACM_SKM_SHC_V2_Strobe.et"
+     AreaType ACM_SKM_SHC_V2_Strobe "{6AC84509C508F4B4}" {
+     }
+    }
+    LoadoutSlotInfo SM_Light {
+     Prefab "{5D428E4267667D04}Prefabs/vest_slot/Core/HeadGear/ACM_SM_Light.et"
+     AreaType ACM_SM_Light "{6AC8450E1D652B9F}" {
+     }
+    }
    }
    WornModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
    ItemModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
