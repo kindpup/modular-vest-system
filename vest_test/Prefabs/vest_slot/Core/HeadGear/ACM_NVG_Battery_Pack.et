@@ -1,0 +1,102 @@
+GenericEntity {
+ ID "6AC815F9B8E98323"
+ components {
+  Persistence "{6AC815F9B8E98585}" {
+  }
+  SignalsManagerComponent "{6AC815F9B8E9F9C8}" {
+  }
+  ACM_EquipmentStorageComponent "{6AC815F9B8E9F9F7}" {
+   Attributes SCR_ItemAttributeCollection "{6AC815F9B8E9F9F2}" {
+    ItemDisplayName UIInfo "{6AC815F9B8E9F9FE}" {
+     Name "Vest_CRYE_AVS_V1__TQ"
+     Description "TQ_2"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AC815F9B8E9F9FA}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AC815F9B8E9F9E1}" {
+      PreviewModel "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AC815F9B8E9F9EC}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AC815F9B8E9F9EF}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AC815F9B8E9F9E8}" {
+     }
+     PreviewRenderAttributes "{6AC815F9B8E9F9EA}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AC815F9B8E9FE14}" {
+   Object "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
+  }
+  SCR_SoundDataComponent "{6AC815F9B8E9FE11}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AC815F9B8E9FE25}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AC815F9B8E9FE26}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AC815F9B8E9FE21}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AC815F9B8E9FE20}" {
+   AreaType ACM_OpsCore_Fast_SFHC_AMPSfbx "{6AC815F9B8E9FE2F}" {
+   }
+   WornModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
+   ItemModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
+  }
+  ActionsManagerComponent "{6AC815F9B8E9FE29}" {
+   ActionContexts {
+    UserActionContext "{6AC815F9B8E9FE2A}" {
+     UIInfo SCR_ActionContextUIInfo "{6AC815F9B8E9FE54}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AC815F9B8E9FE50}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AC815F9B8E9FE5C}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AC815F9B8E9FE59}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AC815F9B8E9FE48}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AC815F9B8E9FE4A}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AC815F9B8E9FE77}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AC815F9B8E9FE73}" {
+  }
+ }
+}

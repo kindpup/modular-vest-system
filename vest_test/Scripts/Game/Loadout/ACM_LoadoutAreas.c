@@ -166,4 +166,8 @@ class ACM_Bag_SlotArea_Right : LoadoutAreaType {};
 // WEAPON CARRIAGE
 //------------------------------------------------------------------------------------------------
 class ACM_Sling : LoadoutAreaType {};
-
+//------------------------------------------------------------------------------------------------
+// HeadGear Attatchments
+//------------------------------------------------------------------------------------------------
+class ACM_OpsCore_Fast_SFHC_AMPSfbx : LoadoutAreaType {};
+class ACM_BatteryPack_PVS31A_L3Harris : LoadoutAreaType {};
