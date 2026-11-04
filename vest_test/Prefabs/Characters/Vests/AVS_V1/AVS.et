@@ -10,7 +10,7 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
     }
     CustomAttributes {
      PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
-      PreviewModel "{E849A1C8CE6510ED}vest/AVS_Modular/ACM_Exports/Vest_CRYE_AVS_V1_Base_WithSlots.xob"
+      PreviewModel "{09AD28D6BA44976E}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
      }
     }
    }

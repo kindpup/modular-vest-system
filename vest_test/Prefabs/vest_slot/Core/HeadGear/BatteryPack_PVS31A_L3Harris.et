@@ -9,7 +9,7 @@ GenericEntity {
    Attributes SCR_ItemAttributeCollection "{6AC86CDD3653934C}" {
     ItemDisplayName UIInfo "{6AC86CDD3653934E}" {
      Name "BatteryPack_PVS31A_L3Harris"
-     Description "L3Harris"
+     Description "BatteryPack"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6AC86CDD36539340}" {
     }
@@ -59,8 +59,8 @@ GenericEntity {
   BaseLoadoutClothComponent "{6AC86CDD3653936F}" {
    AreaType ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire "{6AC86CDD24AECA5A}" {
    }
-   WornModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
-   ItemModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
+   WornModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
+   ItemModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
   }
   ActionsManagerComponent "{6AC86CDD36539364}" {
    ActionContexts {

@@ -1,0 +1,48 @@
+GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AC938EA263FBA21}" {
+  }
+  ACM_ClothNodeStorageComponent "{6AC938EA2D72D1E4}" {
+   Attributes ItemAttributeCollection "{6AC938EA63341CBC}" {
+    ItemDisplayName UIInfo "{6AC938EA668F4FE6}" {
+     Name "OpsCore_Fast_SFHC"
+     Description "OpsCore_Fast_SFHC_Helmet"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AC938EAA11E2F0E}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6AC938EAA3D9EFB0}" {
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_Helmet_M1_Olive_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo BatteryPack_PVS31A_L3Harris {
+     AreaType ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris "{6AC938EAFE98024E}" {
+     }
+    }
+    LoadoutSlotInfo BatteryPack_PVS31A_L3Harris_Jack {
+     AreaType ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris_Jack "{6AC938EB18F9AE2D}" {
+     }
+    }
+    LoadoutSlotInfo EarPro_OpsCore_AMP_Mount_Wire {
+     AreaType ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire "{6AC938EB04F60C72}" {
+     }
+    }
+   }
+   WornModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+   ItemModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+  }
+ }
+}
