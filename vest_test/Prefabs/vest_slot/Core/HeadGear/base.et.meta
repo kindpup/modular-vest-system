@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5D428E4267667D04}Prefabs/vest_slot/Core/HeadGear/ACM_SM_Light.et"
+ Name "{9D5D898D9A604226}Prefabs/vest_slot/Core/base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

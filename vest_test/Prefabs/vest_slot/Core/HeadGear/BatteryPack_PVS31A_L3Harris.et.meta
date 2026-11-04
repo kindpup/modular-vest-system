@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9114224A4192094F}Prefabs/vest_slot/Core/ACM_Amps.et"
+ Name "{38A2DC83514E7516}Prefabs/vest_slot/Core/HeadGear/BatteryPack_PVS31A_L3Harris.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

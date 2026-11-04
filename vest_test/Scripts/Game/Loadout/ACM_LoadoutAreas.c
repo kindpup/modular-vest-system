@@ -169,10 +169,12 @@ class ACM_Sling : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
 // HeadGear Attatchments SFHC
 //------------------------------------------------------------------------------------------------
-class ACM_OpsCore_Fast_SFHC_AMPSfbx : LoadoutAreaType {};
-class ACM_BatteryPack_PVS31A_L3Harris : LoadoutAreaType {};
-class ACM_Mount_G24 : LoadoutAreaType {};
-class ACM_BatteryPack_PVS31A_L3Harris_Jack : LoadoutAreaType {};
-class ACM_EarPro_OpsCore_AMP_Mount_Wire : LoadoutAreaType {};
-class ACM_SKM_SHC_V2_Strobe : LoadoutAreaType {};
-class ACM_SM_Light : LoadoutAreaType {};
+class ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris : LoadoutAreaType {};
+class ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris_Jack : LoadoutAreaType {};
+class ACM_SLOT_EarPro_OpsCore_AMP : LoadoutAreaType {};
+class ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire : LoadoutAreaType {};
+class ACM_AVS_SLOT_Mount_G24 : LoadoutAreaType {};
+class ACM_AVS_SLOT_SK_Patch_Snake : LoadoutAreaType {};
+class ACM_AVS_SLOT_SK_Patch_US : LoadoutAreaType {};
+class ACM_AVS_SLOT_SKM_SHC_V2_Strobe : LoadoutAreaType {};
+class ACM_AVS_SLOT_SM_Light : LoadoutAreaType {};
