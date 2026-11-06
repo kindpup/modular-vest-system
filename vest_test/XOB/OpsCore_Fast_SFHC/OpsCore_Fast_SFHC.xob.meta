@@ -14,16 +14,6 @@ MetaFileClass {
     MeshParam SKM_OpsCore_Fast_SFHC {
     }
    }
-   GeometryParams {
-    GeometryParam "UTM_SKM_OpsCore_Fast_SFHC.002" {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DE262768AD81A12D}Common/Materials/Game/Armor/armor_25mm.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-   }
    Common TXOCommonClass "{6AC7666BE29D3DAF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
    ApplicationVendor "Blender Foundation"

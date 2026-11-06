@@ -167,14 +167,18 @@ class ACM_Bag_SlotArea_Right : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
 class ACM_Sling : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
-// HeadGear Attatchments SFHC
+// M_HeadGear_Attatchments
 //------------------------------------------------------------------------------------------------
-class ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris : LoadoutAreaType {};
-class ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris_Jack : LoadoutAreaType {};
-class ACM_SLOT_EarPro_OpsCore_AMP : LoadoutAreaType {};
-class ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire : LoadoutAreaType {};
-class ACM_AVS_SLOT_Mount_G24 : LoadoutAreaType {};
-class ACM_AVS_SLOT_SK_Patch_Snake : LoadoutAreaType {};
-class ACM_AVS_SLOT_SK_Patch_US : LoadoutAreaType {};
-class ACM_AVS_SLOT_SKM_SHC_V2_Strobe : LoadoutAreaType {};
-class ACM_AVS_SLOT_SM_Light : LoadoutAreaType {};
+class ACM_AVS_M_BatteryPack : LoadoutAreaType {};
+class AVS_M_BatteryPack_Jack : LoadoutAreaType {};
+class ACM_AVS_M_EarPro_Mount_Wire : LoadoutAreaType {};
+class ACM_AVS_M_EarPro_OpsCore_AMP : LoadoutAreaType {};
+class ACM_AVS_M_Light_Left : LoadoutAreaType {};
+class ACM_AVS_M_Light_right : LoadoutAreaType {};
+class ACM_AVS_M_NVG_Mount : LoadoutAreaType {};
+class ACM_AVS_AVS_M_Patch_Left : LoadoutAreaType {};
+class ACM_AVS_M_Patch_Right : LoadoutAreaType {};
+class ACM_AVS_M_Strobe : LoadoutAreaType {};
+//------------------------------------------------------------------------------------------------
+// A_HeadGear_Attatchments
+//-----------------------------------------------------------------------------------------------
