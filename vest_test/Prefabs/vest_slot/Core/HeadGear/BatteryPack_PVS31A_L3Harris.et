@@ -37,7 +37,7 @@ GenericEntity {
    }
   }
   MeshObject "{6AC86CDD3653937A}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
   }
   SCR_SoundDataComponent "{6AC86CDD3653937C}" {
    m_aAudioSourceConfiguration {
@@ -57,7 +57,7 @@ GenericEntity {
    }
   }
   BaseLoadoutClothComponent "{6AC86CDD3653936F}" {
-   AreaType ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire "{6AC86CDD24AECA5A}" {
+   AreaType ACM_AVS_SLOT_BatteryPack_PVS31A_L3Harris "{6ACD4020457A8048}" {
    }
    WornModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"
    ItemModel "{FD8F5E7F647F3C10}XOB/OpsCore_Fast_SFHC/BatteryPack_PVS31A_L3Harris.xob"

@@ -37,7 +37,7 @@ GenericEntity {
    }
   }
   MeshObject "{6AC935F5721793B9}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{03C5F4903EEDFCCC}XOB/OpsCore_Fast_SFHC/EarPro_OpsCore_AMP_Mount_Wire.xob"
   }
   SCR_SoundDataComponent "{6AC935F5721793B0}" {
    m_aAudioSourceConfiguration {
@@ -59,8 +59,8 @@ GenericEntity {
   BaseLoadoutClothComponent "{6AC935F57217905A}" {
    AreaType ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire "{6AC935F57217905C}" {
    }
-   WornModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
-   ItemModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
+   WornModel "{03C5F4903EEDFCCC}XOB/OpsCore_Fast_SFHC/EarPro_OpsCore_AMP_Mount_Wire.xob"
+   ItemModel "{03C5F4903EEDFCCC}XOB/OpsCore_Fast_SFHC/EarPro_OpsCore_AMP_Mount_Wire.xob"
   }
   ActionsManagerComponent "{6AC935F57217905E}" {
    ActionContexts {

@@ -37,7 +37,7 @@ GenericEntity {
    }
   }
   MeshObject "{6AC935F56864E06C}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{7ADBEB708F5CAFDD}XOB/OpsCore_Fast_SFHC/SKM_SHC_V2_Strobe.xob"
   }
   SCR_SoundDataComponent "{6AC935F56864E06E}" {
    m_aAudioSourceConfiguration {

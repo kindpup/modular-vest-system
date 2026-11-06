@@ -9,7 +9,7 @@ GenericEntity {
    Attributes SCR_ItemAttributeCollection "{6AC935F5785CCE88}" {
     ItemDisplayName UIInfo "{6AC935F5785CCE89}" {
      Name "Mount_G24"
-     Description "NVGS_Mount"
+     Description "ACM_NVGMount"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6AC935F5785CCE8B}" {
     }
@@ -37,7 +37,7 @@ GenericEntity {
    }
   }
   MeshObject "{6AC935F5785CCE86}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{B3CEDEC917C31840}XOB/OpsCore_Fast_SFHC/Mount_G24.xob"
   }
   SCR_SoundDataComponent "{6AC935F5785CCEB8}" {
    m_aAudioSourceConfiguration {

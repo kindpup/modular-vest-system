@@ -8,8 +8,8 @@ GenericEntity {
   ACM_EquipmentStorageComponent "{6AC935F54CBC2634}" {
    Attributes SCR_ItemAttributeCollection "{6AC935F54CBC2636}" {
     ItemDisplayName UIInfo "{6AC935F54CBC2628}" {
-     Name "EarPro_OpsCore_AMP_Mount_Wire"
-     Description "AMP_Mount_Wire"
+     Name "EarPro_OpsCore_AMP"
+     Description "ACM_OpsCore_AMP"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6AC935F54CBC262A}" {
     }
@@ -37,7 +37,7 @@ GenericEntity {
    }
   }
   MeshObject "{6AC935F54CBC2626}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
   }
   SCR_SoundDataComponent "{6AC935F54CBC26D8}" {
    m_aAudioSourceConfiguration {
@@ -57,10 +57,10 @@ GenericEntity {
    }
   }
   BaseLoadoutClothComponent "{6AC935F54CBC26C3}" {
-   AreaType ACM_AVS_SLOT_EarPro_OpsCore_AMP_Mount_Wire "{6AC935F40239B2FC}" {
+   AreaType ACM_SLOT_EarPro_OpsCore_AMP "{6ACD4020ABA3E02A}" {
    }
-   WornModel "{03C5F4903EEDFCCC}XOB/OpsCore_Fast_SFHC/EarPro_OpsCore_AMP_Mount_Wire.xob"
-   ItemModel "{03C5F4903EEDFCCC}XOB/OpsCore_Fast_SFHC/EarPro_OpsCore_AMP_Mount_Wire.xob"
+   WornModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
+   ItemModel "{E86722EBC669204B}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC_AMPSfbx.xob"
   }
   ActionsManagerComponent "{6AC935F54CBC26C7}" {
    ActionContexts {

@@ -37,7 +37,10 @@ GenericEntity {
    }
   }
   MeshObject "{6AC935F591E6CD46}" {
-   Object "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+   Object "{5B4BACA818E19606}XOB/OpsCore_Fast_SFHC/SM_Light.xob"
+  }
+  SCR_FlashlightComponent "{6ACD40212F1D3BC1}" {
+   m_eAnimVariable ANPRC68
   }
   SCR_SoundDataComponent "{6AC935F591E6CD47}" {
    m_aAudioSourceConfiguration {
@@ -98,6 +101,12 @@ GenericEntity {
    "Parent Node From Parent Entity" 0
   }
   Hierarchy "{6AC935F591E6CD17}" {
+  }
+ }
+ {
+  LightEntity {
+   ID "6ACD4021757C200D"
+   coords -0.101 1.772 0.042
   }
  }
 }
