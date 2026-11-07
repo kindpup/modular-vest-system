@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B30E0A8118F19469}Prefabs/vest_slot/Core/HeadGear/EarPro_OpsCore_AMP_Mount_Wire.et"
+ Name "{8F1750D2D17CEB4D}Prefabs/vest_slot/Core/HeadGear/BatteryPack.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

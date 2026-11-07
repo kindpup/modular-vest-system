@@ -170,13 +170,13 @@ class ACM_Sling : LoadoutAreaType {};
 // M_HeadGear_Attatchments
 //------------------------------------------------------------------------------------------------
 class ACM_AVS_M_BatteryPack : LoadoutAreaType {};
-class AVS_M_BatteryPack_Jack : LoadoutAreaType {};
+class ACM_AVS_M_BatteryPack_Jack : LoadoutAreaType {};
 class ACM_AVS_M_EarPro_Mount_Wire : LoadoutAreaType {};
 class ACM_AVS_M_EarPro_OpsCore_AMP : LoadoutAreaType {};
 class ACM_AVS_M_Light_Left : LoadoutAreaType {};
 class ACM_AVS_M_Light_right : LoadoutAreaType {};
 class ACM_AVS_M_NVG_Mount : LoadoutAreaType {};
-class ACM_AVS_AVS_M_Patch_Left : LoadoutAreaType {};
+class ACM_AVS_M_Patch_Left : LoadoutAreaType {};
 class ACM_AVS_M_Patch_Right : LoadoutAreaType {};
 class ACM_AVS_M_Strobe : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
