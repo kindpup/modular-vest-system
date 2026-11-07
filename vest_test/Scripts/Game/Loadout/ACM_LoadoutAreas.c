@@ -182,3 +182,4 @@ class ACM_AVS_M_Strobe : LoadoutAreaType {};
 //------------------------------------------------------------------------------------------------
 // A_HeadGear_Attatchments
 //-----------------------------------------------------------------------------------------------
+class ACM_AVS_A_Helmet_CRYE_Airframe_Cover : LoadoutAreaType {};
