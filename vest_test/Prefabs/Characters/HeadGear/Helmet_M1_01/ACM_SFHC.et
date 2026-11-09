@@ -1,17 +1,17 @@
 GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_base.et" {
  ID "5112706CD4157AC7"
  components {
-  ACM_ClothAreaExtensionComponent "{6ACE16E94D7E09E0}" {
+  ACM_ClothAreaExtensionComponent "{6AD2358C142DC5B2}" {
   }
-  ACM_ClothNodeStorageComponent "{6ACE16E97DF4B294}" {
-   Attributes SCR_ItemAttributeCollection "{6ACE16E97718DFD5}" {
-    ItemDisplayName UIInfo "{6ACE16E96ABC71C7}" {
-     Name "OpsCore_Fast_SFHC"
-     Description "OpsCore_Fast_SFHC"
+  ACM_ClothNodeStorageComponent "{6AD2358C142DC5A0}" {
+   Attributes SCR_ItemAttributeCollection "{6AD2358C142DC5AD}" {
+    ItemDisplayName UIInfo "{6AD2358C142DC5AF}" {
+     Name "ACM_CryeAirFrame"
+     Description "ACM_CryeAirFrame"
     }
-    ItemPhysAttributes ItemPhysicalAttributes "{6ACE16E96ED4F9C8}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{6AD2358C142DC5A8}" {
     }
-    ItemAnimationAttributes ItemAnimationAttributes "{6ACE16E96D202DE8}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{6AD2358C142DC5AA}" {
     }
    }
   }
@@ -29,43 +29,47 @@ GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     LoadoutSlotInfo ACM_AVS_M_BatteryPack {
-     AreaType ACM_AVS_M_BatteryPack "{6ACE1983E427A65F}" {
+     AreaType ACM_AVS_M_BatteryPack "{6AD2358C142DC5DE}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_BatteryPack_Jack {
-     AreaType AVS_M_BatteryPack_Jack "{6ACE198041667B92}" {
-     }
     }
     LoadoutSlotInfo ACM_AVS_M_EarPro_Mount_Wire {
-     AreaType ACM_AVS_M_EarPro_Mount_Wire "{6ACE19807DF8E37F}" {
+     AreaType ACM_AVS_M_EarPro_Mount_Wire "{6AD2358C142DC5DB}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_EarPro_OpsCore_AMP {
-     AreaType ACM_AVS_M_EarPro_OpsCore_AMP "{6ACE19806A29298C}" {
+     AreaType ACM_AVS_M_EarPro_OpsCore_AMP "{6AD2358C142DC5C5}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Light_Left {
-     AreaType ACM_AVS_M_Light_Left "{6ACE19806D146F97}" {
+     AreaType ACM_AVS_M_Light_Left "{6AD2358C142DC5C4}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Light_right {
-     AreaType ACM_AVS_M_Light_right "{6ACE19806159F7EA}" {
+     Offset 0 0.0156 0
+     AreaType ACM_AVS_M_Light_right "{6AD2358C142DC5C6}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_NVG_Mount {
-     AreaType ACM_AVS_M_NVG_Mount "{6ACE19809AFD87D0}" {
+     AreaType ACM_AVS_M_NVG_Mount "{6AD2358C142DC5C1}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Patch_Left {
-     AreaType ACM_AVS_M_Light_Left "{6ACE19809D0C1535}" {
+     AreaType ACM_AVS_M_Light_Left "{6AD2358C142DC5C3}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Patch_Right {
-     AreaType ACM_AVS_M_Patch_Right "{6ACE198095EB9A28}" {
+     AreaType ACM_AVS_M_Patch_Right "{6AD2358C142D3A0F}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Strobe {
-     AreaType ACM_AVS_M_Strobe "{6ACE198086CACBF3}" {
+     AreaType ACM_AVS_M_Strobe "{6AD2358C142D3A0E}" {
+     }
+    }
+    LoadoutSlotInfo ACM_CounterWeight {
+     Prefab "{65C3B3354A8354C1}Prefabs/vest_slot/Core/HeadGear/ACM_CounterWeight.et"
+     AreaType ACM_AVS_M_CounterWeight "{6AD26795546B485A}" {
      }
     }
    }

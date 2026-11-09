@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{21AFA7CBC79BBB9E}XOB/Helmet Attachments/Data/MI_NVG_L3Harris_BatteryPack_WM.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

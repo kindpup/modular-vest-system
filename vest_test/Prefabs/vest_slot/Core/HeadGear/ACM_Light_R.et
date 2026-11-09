@@ -1,0 +1,102 @@
+GenericEntity {
+ ID "6AD267971B7340B0"
+ components {
+  Persistence "{6AD267971B7340BB}" {
+  }
+  SignalsManagerComponent "{6AD267971B7340AD}" {
+  }
+  ACM_EquipmentStorageComponent "{6AD267971B7340AF}" {
+   Attributes SCR_ItemAttributeCollection "{6AD267971B7340A9}" {
+    ItemDisplayName UIInfo "{6AD267971B7340A8}" {
+     Name "Helmet Light"
+     Description "Helmet Light"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AD267971B7340AA}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AD267971B7340D7}" {
+      PreviewModel "{6B4E7ED9ABA73FE9}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1__TQ.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AD267971B7340D1}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AD267971B7340D3}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AD267971B7340DD}" {
+     }
+     PreviewRenderAttributes "{6AD267971B72CF2A}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AD267971B72CF29}" {
+   Object "{3C7259B744AF1BDD}XOB/Helmet Attachments/Light Left.xob"
+  }
+  SCR_SoundDataComponent "{6AD267971B72CF2E}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AD267971B72CF3E}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AD267971B72CF3C}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AD267971B72CF02}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AD267971B72CF03}" {
+   AreaType ACM_AVS_M_Light_right "{6AD267970F4A7FFD}" {
+   }
+   WornModel "{3C7259B744AF1BDD}XOB/Helmet Attachments/Light Left.xob"
+   ItemModel "{3C7259B744AF1BDD}XOB/Helmet Attachments/Light Left.xob"
+  }
+  ActionsManagerComponent "{6AD267971B72CF06}" {
+   ActionContexts {
+    UserActionContext "{6AD267971B72CF04}" {
+     UIInfo SCR_ActionContextUIInfo "{6AD267971B72CF05}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AD267971B72CF08}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AD267971B72CF0D}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AD267971B72CF13}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AD267971B72CF18}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AD267971B72CF1C}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AD267971B72CEE2}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AD267971B72CEE0}" {
+  }
+ }
+}

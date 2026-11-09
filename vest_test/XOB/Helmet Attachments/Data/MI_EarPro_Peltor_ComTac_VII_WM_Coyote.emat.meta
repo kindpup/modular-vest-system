@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{403463A2859B69E6}XOB/Helmet Attachments/Data/MI_EarPro_Peltor_ComTac_VII_WM_Coyote.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -29,13 +29,8 @@ GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     LoadoutSlotInfo ACM_AVS_M_BatteryPack {
+     Offset 0 0.0257 0.0073
      AreaType ACM_AVS_M_BatteryPack "{6ACE2B680BF27066}" {
-     }
-    }
-    LoadoutSlotInfo ACM_AVS_M_BatteryPack_Jack {
-    }
-    LoadoutSlotInfo ACM_AVS_M_EarPro_Mount_Wire {
-     AreaType ACM_AVS_M_EarPro_Mount_Wire "{6ACE2B680BF27060}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_EarPro_OpsCore_AMP {
@@ -47,10 +42,11 @@ GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Light_right {
-     AreaType ACM_AVS_M_Light_right "{6ACE2B680BF2706D}" {
+     AreaType ACM_AVS_M_Light_right "{6AD26797919F5B53}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_M_NVG_Mount {
+     Offset 0 -0.0152 -0.0105
      AreaType ACM_AVS_M_NVG_Mount "{6ACE2B680BF2706C}" {
      }
     }
@@ -63,11 +59,21 @@ GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_
      }
     }
     LoadoutSlotInfo ACM_AVS_M_Strobe {
+     Offset 0 0.0355 -0.3983
+     Angles -13.2447 0 0
      AreaType ACM_AVS_M_Strobe "{6ACE2B680BF27081}" {
      }
     }
     LoadoutSlotInfo ACM_AVS_A_Helmet_CRYE_Airframe_Cover {
      AreaType ACM_AVS_A_Helmet_CRYE_Airframe_Cover "{6ACE2B6877C6F979}" {
+     }
+    }
+    LoadoutSlotInfo ACM_CounterWeight {
+     AreaType ACM_AVS_M_CounterWeight "{6AD26797DBD39B78}" {
+     }
+    }
+    LoadoutSlotInfo Mowhawk {
+     AreaType ACM_AVS_M_Mowhawk "{6AD26797F3251DF9}" {
      }
     }
    }

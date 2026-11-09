@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0DF4F1F546CAB5D5}XOB/Helmet Attachments/Data/MI_Light_TNVC_FDE.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

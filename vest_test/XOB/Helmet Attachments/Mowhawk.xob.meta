@@ -1,0 +1,48 @@
+MetaFileClass {
+ Name "{5F702EB737EBDE02}XOB/Helmet Attachments/Mowhawk.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AD26791AC99992C}" {
+     SourceMaterial "MI_NVG_Counterweight_TNVC_Mohawk_MK3_G2_OCP"
+     AssignedMaterial "{06E49936C598541C}XOB/Helmet Attachments/Data/MI_NVG_Counterweight_TNVC_Mohawk_MK3_G2_OCP.emat"
+    }
+    MaterialAssignClass "{6AD267967E702A1C}" {
+     SourceMaterial "MI_NVG_L3Harris_BatteryPack_WM"
+     AssignedMaterial "{21AFA7CBC79BBB9E}XOB/Helmet Attachments/Data/MI_NVG_L3Harris_BatteryPack_WM.emat"
+    }
+   }
+   MeshParams {
+    MeshParam NVG_Counterweight_TNVC_Mohawk_MK3_G2 {
+    }
+   }
+   Common TXOCommonClass "{6AD26791AF745D58}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.1"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AD26791AF74523F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AD26791AF745246}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AD26791AF74527F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AD26791AF745296}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AD26791AF74528F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,44 @@
+MetaFileClass {
+ Name "{814CA3E669386251}XOB/Helmet Attachments/EarPro_Peltor_ComTac.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AD26791A5B53E79}" {
+     SourceMaterial "MI_EarPro_Peltor_ComTac_VII_WM_Coyote"
+     AssignedMaterial "{403463A2859B69E6}XOB/Helmet Attachments/Data/MI_EarPro_Peltor_ComTac_VII_WM_Coyote.emat"
+    }
+   }
+   MeshParams {
+    MeshParam EarPro_Peltor_ComTac_VII_WM {
+    }
+   }
+   Common TXOCommonClass "{6AD26791A5BBEC99}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.1"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AD26791A5BBECE9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AD26791A5BBED37}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AD26791A5BBED2E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AD26791A5BBED41}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AD26791A5BBED7E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

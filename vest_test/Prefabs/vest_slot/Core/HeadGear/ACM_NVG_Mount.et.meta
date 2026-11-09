@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{97DB6D042B9AB55C}Prefabs/vest_slot/Core/HeadGear/ACM_AVS_M_NVG_Mount.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
