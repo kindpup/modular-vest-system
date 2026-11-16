@@ -15,6 +15,9 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
     }
    }
   }
+  MeshObject "{5312D798A817A294}" {
+   Object "{628684C2A9D40D46}XOB/Vest_CRYE_AVS_V1/Crye_AVS.xob"
+  }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo TQ {
@@ -108,9 +111,9 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
      InheritParentSkeleton 1
     }
    }
-   WornModel "{09AD28D6BA44976E}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
-   ItemModel "{09AD28D6BA44976E}XOB/Vest_CRYE_AVS_V1/Vest_CRYE_AVS_V1.xob"
-   DeflatedModel "{E849A1C8CE6510ED}vest/AVS_Modular/ACM_Exports/Vest_CRYE_AVS_V1_Base_WithSlots.xob"
+   WornModel "{628684C2A9D40D46}XOB/Vest_CRYE_AVS_V1/Crye_AVS.xob"
+   ItemModel "{628684C2A9D40D46}XOB/Vest_CRYE_AVS_V1/Crye_AVS.xob"
+   DeflatedModel "{628684C2A9D40D46}XOB/Vest_CRYE_AVS_V1/Crye_AVS.xob"
   }
  }
 }
