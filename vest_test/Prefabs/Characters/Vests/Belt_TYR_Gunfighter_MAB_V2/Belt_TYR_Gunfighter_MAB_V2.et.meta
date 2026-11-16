@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{61F8A890F93ACD07}Prefabs/Characters/Vests/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

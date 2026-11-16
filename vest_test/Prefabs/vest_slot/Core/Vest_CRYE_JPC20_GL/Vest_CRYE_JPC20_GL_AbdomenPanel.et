@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF2A21B1FDD858D"
+ components {
+  Persistence "{6AF233A31E3BA935}" {
+  }
+  SignalsManagerComponent "{6AF5145EAFA53585}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF52AD2D40EE4DB}" {
+   Attributes SCR_ItemAttributeCollection "{6AFC321E849888D0}" {
+    ItemDisplayName UIInfo "{6AF4FF639625AF92}" {
+     Name "CRYE Abdomen Panel"
+     Description "CRYE JPC 2.0 GL Modular Vest - CRYE Abdomen Panel"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFC9B93D118A0BC}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AFA6485C1B120D4}" {
+      PreviewWornModel 1
+      PreviewModel "{BBC661125DE4ACCC}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GL_AbdomenPanel.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFC1C58AA0CFDE3}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF3A16B112BBB2C}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF60AA5F4C2A6B2}" {
+     }
+     PreviewRenderAttributes "{6AF6587CC6DDED1F}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF823E1F2080995}" {
+   Object "{BBC661125DE4ACCC}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GL_AbdomenPanel.xob"
+  }
+  SCR_SoundDataComponent "{6AFA77B4019480A8}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFE7A5D4B10A815}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AFA614BD56BA44A}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF5344F0DF6AEB7}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF9D059CB76B9A6}" {
+   AreaType ACM_Vest_JPC20_GL_AbdomenPanel "{6AFCDAADAE66FB4C}" {
+   }
+   WornModel "{BBC661125DE4ACCC}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GL_AbdomenPanel.xob"
+   ItemModel "{BBC661125DE4ACCC}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GL_AbdomenPanel.xob"
+  }
+  ActionsManagerComponent "{6AFF2A46FFED26AD}" {
+   ActionContexts {
+    UserActionContext "{6AFA27DA7BD32FE2}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF4CEF401721D79}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFD7B05368141F3}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AF3230282AF3B56}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF9046534B160B3}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF0DBDFDDADDE5A}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF5E9C1ECCCAC1B}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AFEEA771A16D41F}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFCA2D5FD48DA93}" {
+  }
+ }
+}

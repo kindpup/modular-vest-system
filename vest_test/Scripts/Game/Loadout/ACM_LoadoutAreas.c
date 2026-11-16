@@ -98,6 +98,7 @@ class ACM_Vest_JPC20_JTAC_Pouch_CRYE_AVS : LoadoutAreaType {}
 class ACM_Vest_JPC20_JTAC_Pouch_SS_S : LoadoutAreaType {}
 class ACM_Vest_JPC20_JTAC_Pouch_SS_Spud : LoadoutAreaType {}
 class ACM_Vest_JPC20_JTAC_S7_Case : LoadoutAreaType {}
+class ACM_Vest_JPC20_JTAC_TQ : LoadoutAreaType {}
 class ACM_Vest_JPC20_GL_AbdomenPanel : LoadoutAreaType {}
 class ACM_Vest_JPC20_GLPMag_Full : LoadoutAreaType {}
 class ACM_Vest_JPC20_Rifle_Chemlights : LoadoutAreaType {}
@@ -107,6 +108,22 @@ class ACM_Vest_JPC20_Rifle_Pouch_Frag_02 : LoadoutAreaType {}
 class ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_L_Mag : LoadoutAreaType {}
 class ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_R_Mag : LoadoutAreaType {}
 class ACM_Vest_JPC20_Rifle_Pouch_SS_V : LoadoutAreaType {}
+
+//------------------------------------------------------------------------------------------------
+// BELT_TYR_GUNFIGHTER_MAB_V2 — ITEMS WITHOUT A SHARED BELT AREA
+// (holster, carabiner, mag/pistol/frag/dump pouches use the shared BELT & WAIST areas)
+//------------------------------------------------------------------------------------------------
+class ACM_Belt_TYR_MAB_V2_IFAK : LoadoutAreaType {}
+class ACM_Belt_TYR_MAB_V2_Mag_01 : LoadoutAreaType {}
+class ACM_Belt_TYR_MAB_V2_Mag_Pistol : LoadoutAreaType {}
+class ACM_Belt_TYR_MAB_V2_Multitool : LoadoutAreaType {}
+
+//------------------------------------------------------------------------------------------------
+// SKM_BELT_BISON — ITEMS WITHOUT A SHARED BELT AREA
+// (holster, holster strap, Haley mag pouch, pistol pouch 01 use the shared BELT & WAIST areas)
+//------------------------------------------------------------------------------------------------
+class ACM_Belt_Bison_IFAK : LoadoutAreaType {}
+class ACM_Belt_Bison_PistolDouble_02 : LoadoutAreaType {}
 
 //------------------------------------------------------------------------------------------------
 // VEST — ARMOR PLATES

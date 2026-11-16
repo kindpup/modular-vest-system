@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{293ECB4D2D851BF9}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_S7_Case.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

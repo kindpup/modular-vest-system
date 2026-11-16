@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF54C59B244FFA0"
+ components {
+  Persistence "{6AF369EB8932E31A}" {
+  }
+  SignalsManagerComponent "{6AFF5A101B0292BB}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFA9A8FF1E7D941}" {
+   Attributes SCR_ItemAttributeCollection "{6AF21542C4A62A1B}" {
+    ItemDisplayName UIInfo "{6AF9F907AACFCE4E}" {
+     Name "M60 Ammo Pouch 03"
+     Description "CRYE JPC 2.0 SAW Modular Vest - M60 Ammo Pouch 03"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFDBF3316B5BBFE}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AFEEA7CC9945276}" {
+      PreviewWornModel 1
+      PreviewModel "{5AD2B2AFAA89EE16}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_03.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AF989216724AEA8}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF3739B6B33B3A0}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF4C3040431A5CE}" {
+     }
+     PreviewRenderAttributes "{6AFADA70DDEBB0E5}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFD19D1A6DE414C}" {
+   Object "{5AD2B2AFAA89EE16}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_03.xob"
+  }
+  SCR_SoundDataComponent "{6AFD233D4A29E639}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF8291428595B1A}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AFAA1AA2945D906}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF405D3DA37DB36}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF64B123E9328DB}" {
+   AreaType ACM_Vest_JPC20_SAW_Pouch_M60_03 "{6AFBEFE8D5E01048}" {
+   }
+   WornModel "{5AD2B2AFAA89EE16}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_03.xob"
+   ItemModel "{5AD2B2AFAA89EE16}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_03.xob"
+  }
+  ActionsManagerComponent "{6AF6AE7C345B1A5B}" {
+   ActionContexts {
+    UserActionContext "{6AF1DB73892D3774}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF324FBAF10E2F7}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFFDF2A900600A2}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFA1063ADAE4667}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF0B0F95EDF3EDB}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF5BAFA4FA77F8F}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFECFAF7BC644E2}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF44A40AC7E8966}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFC215C2E0DB2C2}" {
+  }
+ }
+}

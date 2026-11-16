@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D0220291848CD4FF}Prefabs/vest_slot/Core/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_KAGWORKS_S7.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

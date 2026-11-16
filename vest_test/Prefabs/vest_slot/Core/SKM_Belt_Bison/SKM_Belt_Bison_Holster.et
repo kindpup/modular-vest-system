@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AFF762BD57AEA18"
+ components {
+  Persistence "{6AFD903B8F9B5D73}" {
+  }
+  SignalsManagerComponent "{6AF29C23E755595D}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFE74D2609F01C5}" {
+   Attributes SCR_ItemAttributeCollection "{6AFEB8B9425896F0}" {
+    ItemDisplayName UIInfo "{6AF6F32347ECB453}" {
+     Name "Safariland Holster"
+     Description "Bison Modular Belt - Safariland Holster"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF46187DE6DA8FE}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF7DD8A37996136}" {
+      PreviewWornModel 1
+      PreviewModel "{3052EE195D4CC09E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Holster.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AF97D998852AFF1}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AFDBBADD017F897}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFC296752DEE47C}" {
+     }
+     PreviewRenderAttributes "{6AF31A91C068D455}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFBECE80BCA454B}" {
+   Object "{3052EE195D4CC09E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Holster.xob"
+  }
+  SCR_SoundDataComponent "{6AF9E23AA29AE015}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFFA94541426EDA}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF398C9CCA5292B}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF613A5DE28605D}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF46EA6998B99FC}" {
+   AreaType ACM_Belt_Holster "{6AF6D219C5B9A962}" {
+   }
+   WornModel "{3052EE195D4CC09E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Holster.xob"
+   ItemModel "{3052EE195D4CC09E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Holster.xob"
+  }
+  ActionsManagerComponent "{6AFD5BEDA3C73ACB}" {
+   ActionContexts {
+    UserActionContext "{6AF6E2D0577B70D1}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF050D3ECAF1077}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFB6F197FA09A6A}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFFA808F722312E}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF7270386DA1AA9}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF496305D84683C}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFB9C629834290F}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF1ECC31BA9C117}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFD40885CFEBFA6}" {
+  }
+ }
+}

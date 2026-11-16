@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9407A3A9B69DE794}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_ADA_Vertical_IFAK_V.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

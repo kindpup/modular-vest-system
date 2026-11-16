@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AFB36ED785CB462"
+ components {
+  Persistence "{6AFDD855E03AD0A2}" {
+  }
+  SignalsManagerComponent "{6AF79662E283BFCE}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFF253EFD51B868}" {
+   Attributes SCR_ItemAttributeCollection "{6AF5DBC3375621C7}" {
+    ItemDisplayName UIInfo "{6AFD587E65E1F460}" {
+     Name "Haley 556 Mag Pouch"
+     Description "Bison Modular Belt - Haley 556 Mag Pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF0815E58E99B13}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF2401855E440B2}" {
+      PreviewWornModel 1
+      PreviewModel "{8C15CC1816D7A444}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Haley556.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFCA94D2410A974}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AFFD52FEAB76AA1}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFAA266BAC24969}" {
+     }
+     PreviewRenderAttributes "{6AF0719049AB0FA8}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF42DB9C0B3452E}" {
+   Object "{8C15CC1816D7A444}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Haley556.xob"
+  }
+  SCR_SoundDataComponent "{6AF66CFA52B2DBBD}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF1B77C1C1F7B0F}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AFA4A92A7C5E8D4}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF05A6C2899D0FF}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF6DB1BC4347F22}" {
+   AreaType ACM_Belt_Mag_Pouch "{6AFAA5D922A6D177}" {
+   }
+   WornModel "{8C15CC1816D7A444}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Haley556.xob"
+   ItemModel "{8C15CC1816D7A444}XOB/SKM_Belt_Bison/SKM_Belt_Bison_Haley556.xob"
+  }
+  ActionsManagerComponent "{6AFAE5F72DE8F28B}" {
+   ActionContexts {
+    UserActionContext "{6AF9919F6348DE1F}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF753116E746F7B}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFDC3D571BE7F48}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AF369841EFB67EC}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF5555CF700222E}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF6AED1F5E601FB}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF3EF9847525E59}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF19CB57559625D}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AF5959282672C54}" {
+  }
+ }
+}

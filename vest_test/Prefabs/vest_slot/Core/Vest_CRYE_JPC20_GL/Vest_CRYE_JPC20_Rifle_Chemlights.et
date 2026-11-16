@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF52E26C891614D"
+ components {
+  Persistence "{6AF42E47514ABFF4}" {
+  }
+  SignalsManagerComponent "{6AF456FD0DA48F79}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF59E427EDE3C57}" {
+   Attributes SCR_ItemAttributeCollection "{6AF8CE4542D40396}" {
+    ItemDisplayName UIInfo "{6AF00360DF8A43A5}" {
+     Name "Chemlights"
+     Description "CRYE JPC 2.0 GL Modular Vest - Chemlights"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFA76F84A7A17CF}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF834C9268C13B8}" {
+      PreviewWornModel 1
+      PreviewModel "{00E3CC261E2C069A}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFC14D0A4AE9ABD}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF7DB70C3193222}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF25481333985EF}" {
+     }
+     PreviewRenderAttributes "{6AFEE3BF53540B22}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFC2B9B7116E24C}" {
+   Object "{00E3CC261E2C069A}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.xob"
+  }
+  SCR_SoundDataComponent "{6AF5C5E5DE474A4C}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFA5E434323B585}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF1A7BD7956AFDD}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF0FCA3736E455C}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF94DA3A4A444B8}" {
+   AreaType ACM_Vest_JPC20_Rifle_Chemlights "{6AF6B792BCFBE40B}" {
+   }
+   WornModel "{00E3CC261E2C069A}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.xob"
+   ItemModel "{00E3CC261E2C069A}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.xob"
+  }
+  ActionsManagerComponent "{6AFEE351835E5E0D}" {
+   ActionContexts {
+    UserActionContext "{6AFB5E136000C8E2}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF0F01EBD1D7140}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AF6298A642D79F4}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFF48EA9EB68FBE}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFEFD16CD68D938}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF89303980D6D62}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF4763D1BB72A15}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AFAA9AAE0E25C8A}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFF8CC53B361C74}" {
+  }
+ }
+}

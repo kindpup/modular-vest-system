@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AFC760DA5E5C374"
+ components {
+  Persistence "{6AFAEC36D8C85E55}" {
+  }
+  SignalsManagerComponent "{6AFBA4D53EAD01A1}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFE03A6F91C9BE4}" {
+   Attributes SCR_ItemAttributeCollection "{6AF22D898D52C976}" {
+    ItemDisplayName UIInfo "{6AF761163DA7386F}" {
+     Name "AN/PRC-152 Radio (L)"
+     Description "CRYE JPC 2.0 JTAC Modular Vest - AN/PRC-152 Radio (L)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF77A8369E9178E}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF1014A62D93A40}" {
+      PreviewWornModel 1
+      PreviewModel "{58633A4BE2BEC6F7}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AF160E320EBC3EC}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF5A10C755F0408}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF82BB6FE3F7059}" {
+     }
+     PreviewRenderAttributes "{6AFCD3FC7BE8A3CC}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF1AD484F83C3B7}" {
+   Object "{58633A4BE2BEC6F7}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.xob"
+  }
+  SCR_SoundDataComponent "{6AF9DE29074BF440}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFD155F1D8F85B5}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF2F088DB9E7442}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF8C896DF90F530}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AFD73F18FE9D4F5}" {
+   AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Radio_L "{6AF2A863D79BC483}" {
+   }
+   WornModel "{58633A4BE2BEC6F7}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.xob"
+   ItemModel "{58633A4BE2BEC6F7}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.xob"
+  }
+  ActionsManagerComponent "{6AF02446C689F791}" {
+   ActionContexts {
+    UserActionContext "{6AF755BA95853C16}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF48D5E68964B2E}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFC9A8A62A0B1D7}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFDAFBB5B235CE3}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF2306588D23876}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF67C34D25C1CB9}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF890287C49ECB2}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF57C2B107759C7}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFAA3A923519344}" {
+  }
+ }
+}

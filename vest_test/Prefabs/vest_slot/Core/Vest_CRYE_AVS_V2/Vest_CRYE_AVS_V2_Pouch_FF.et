@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF75402D6B0DDDF"
+ components {
+  Persistence "{6AFD0EEA1354DAE8}" {
+  }
+  SignalsManagerComponent "{6AF801FAF85C1DEE}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF2F87318891BCA}" {
+   Attributes SCR_ItemAttributeCollection "{6AFC973BD19DCF32}" {
+    ItemDisplayName UIInfo "{6AF06FD4228D1DE2}" {
+     Name "CRYE Flatpack Mag Pouch"
+     Description "CRYE AVS V2 Modular Vest - CRYE Flatpack Mag Pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF12EE5D3AEC8E9}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF9C2F26A646A88}" {
+      PreviewWornModel 1
+      PreviewModel "{8F5515F65BF2659A}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_FF.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFB3FE6D7E0D53F}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF2F4A2D387FD97}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFEDBF888BD987E}" {
+     }
+     PreviewRenderAttributes "{6AF26FF91DF3C0C8}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF903B37342AD33}" {
+   Object "{8F5515F65BF2659A}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_FF.xob"
+  }
+  SCR_SoundDataComponent "{6AF10B5D24793A29}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF9FF7D80FAD067}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF07101511EA7B3}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF453A3E48339B7}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AFCC38DAA8B9CD6}" {
+   AreaType ACM_AVS_V2_Pouch_FF "{6AF1A7AA07C74B8A}" {
+   }
+   WornModel "{8F5515F65BF2659A}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_FF.xob"
+   ItemModel "{8F5515F65BF2659A}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_FF.xob"
+  }
+  ActionsManagerComponent "{6AFFE02E1A4C59DF}" {
+   ActionContexts {
+    UserActionContext "{6AF7BB683F5FE756}" {
+     UIInfo SCR_ActionContextUIInfo "{6AFF0E716ED717E5}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AF76B4805415762}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFF2C3D042D619A}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF4D168A35B80F0}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AFF29A821AD1571}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF36DB79851356F}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF9365CAB85F078}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AF6C1F8FFB68657}" {
+  }
+ }
+}

@@ -1,0 +1,88 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "6B04F3AE89F01032"
+ components {
+  ACM_ClothAreaExtensionComponent "{6B0CE8E1500C4384}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM TYR Gunfighter MAB V2 Modular Belt"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{6523E9ADDBE0B8AF}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType ACM_Waist "{6B0367EDF8739852}" {
+   }
+   Slots {
+    LoadoutSlotInfo Holster {
+     Prefab "{6B750516B31D4CE4}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Holster.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Holster "{6B0A111B6FDE4355}" {
+     }
+    }
+    LoadoutSlotInfo Carabiner3 {
+     Prefab "{05B8DAD6D24CD681}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Carabiner3.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Carabiner "{6B0ADB37AB196DB6}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_ADA_Shingle_Single_M4_01 {
+     Prefab "{712803C073A31041}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_ADA_Shingle_Single_M4_01.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Mag_Pouch "{6B025A05878E237D}" {
+     }
+    }
+    LoadoutSlotInfo Mag_01 {
+     Prefab "{2E9C32BFD27D9B09}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_01.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_TYR_MAB_V2_Mag_01 "{6B0ED36ECE1CC94A}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_PistolDouble {
+     Prefab "{FEC505CCD0CF1E77}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_PistolDouble.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Pistol_Mag_Pouch "{6B0060AFBFE057EE}" {
+     }
+    }
+    LoadoutSlotInfo Mag_Pistol {
+     Prefab "{792CAF96770F7423}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_Pistol.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_TYR_MAB_V2_Mag_Pistol "{6B06539205579704}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_CRYE_Frag {
+     Prefab "{72A0E0A77B061114}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_CRYE_Frag.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Nade_Slot "{6B0392E3E8DD76BE}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_ADA_Vertical_IFAK_V {
+     Prefab "{9407A3A9B69DE794}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_ADA_Vertical_IFAK_V.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_TYR_MAB_V2_IFAK "{6B0496E19F58F2DB}" {
+     }
+    }
+    LoadoutSlotInfo Multitool {
+     Prefab "{B1CE1BAA73935858}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Multitool.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_TYR_MAB_V2_Multitool "{6B03C959C3D12D61}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_RTG_Dump {
+     Prefab "{EABDF555B8D886CB}Prefabs/vest_slot/Core/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_RTG_Dump_RollUp_Rolled.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Dump_Pouch "{6B043E61C8694E14}" {
+     }
+    }
+   }
+   WornModel "{6523E9ADDBE0B8AF}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2.xob"
+   ItemModel "{6523E9ADDBE0B8AF}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2.xob"
+   DeflatedModel "{6523E9ADDBE0B8AF}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2.xob"
+  }
+ }
+}

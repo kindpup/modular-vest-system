@@ -1,0 +1,74 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "6AF5F196A831AFAF"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AF76792CC21A851}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM CRYE JPC 2.0 SAW Modular Vest"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch_M60_01 {
+     Prefab "{41F05671A96DB25C}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_01.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_M60_01 "{6AF500295331B2DD}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_M60_02 {
+     Prefab "{C61CC91C3EDA5519}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_02.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_M60_02 "{6AF4A2443D22E0DE}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_M60_03 {
+     Prefab "{E865CA15D1725998}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_M60_03.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_M60_03 "{6AFB59689EEE1A6D}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_Spiritus_M {
+     Prefab "{03C65974CB424E63}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_Spirirtus_M.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_Spirirtus_M "{6AF74F9C814DB403}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_Spiritus_S {
+     Prefab "{B2C0D7BDE070865B}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_Spiritus_S.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_Spiritus_S "{6AF13FCDFFF0EA2D}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_TQ {
+     Prefab "{05C341294A524385}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_TQ.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Pouch_TQ "{6AF38A841D16FDFE}" {
+     }
+    }
+    LoadoutSlotInfo TQ {
+     Prefab "{C3D33DEF2F4EF4A5}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_TQ.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_TQ "{6AF80C4AE475AC43}" {
+     }
+    }
+    LoadoutSlotInfo Screwdriver {
+     Prefab "{4AC71E6565530F13}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Screwdriver.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_SAW_Screwdriver "{6AFE8F6048469207}" {
+     }
+    }
+   }
+   WornModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   ItemModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   DeflatedModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+  }
+ }
+}

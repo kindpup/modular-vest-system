@@ -1,0 +1,64 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "6B0BFBA2A2105AE7"
+ components {
+  ACM_ClothAreaExtensionComponent "{6B020FF394CE7FA6}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM Bison Modular Belt"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{FADA508BDD8BD060}XOB/SKM_Belt_Bison/SKM_Belt_Bison.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType ACM_Waist "{6B0116FAA591B739}" {
+   }
+   Slots {
+    LoadoutSlotInfo Holster {
+     Prefab "{B50AD507B48DA5F2}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_Holster.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Holster "{6B0C6BA2A0C5C124}" {
+     }
+    }
+    LoadoutSlotInfo Holster_Strap {
+     Prefab "{AA0FD9C310D15252}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_Holster_Strap.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Holster_Strap "{6B0ED2EAD950C1B8}" {
+     }
+    }
+    LoadoutSlotInfo Haley556 {
+     Prefab "{409AD0857E6CBC4D}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_Haley556.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Mag_Pouch "{6B0BE1B18E72C49E}" {
+     }
+    }
+    LoadoutSlotInfo IFAK {
+     Prefab "{FBF1B8BF06B59CC8}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_IFAK.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Bison_IFAK "{6B0E6F4655C0C532}" {
+     }
+    }
+    LoadoutSlotInfo PistolDouble_01 {
+     Prefab "{13F7B5EADD4B5A4B}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_01.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Pistol_Mag_Pouch "{6B07C894BED66B73}" {
+     }
+    }
+    LoadoutSlotInfo PistolDouble_02 {
+     Prefab "{7766208CEDA09812}Prefabs/vest_slot/Core/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_02.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Belt_Bison_PistolDouble_02 "{6B08132F7C0519BD}" {
+     }
+    }
+   }
+   WornModel "{FADA508BDD8BD060}XOB/SKM_Belt_Bison/SKM_Belt_Bison.xob"
+   ItemModel "{FADA508BDD8BD060}XOB/SKM_Belt_Bison/SKM_Belt_Bison.xob"
+   DeflatedModel "{FADA508BDD8BD060}XOB/SKM_Belt_Bison/SKM_Belt_Bison.xob"
+  }
+ }
+}

@@ -1,0 +1,80 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "6AFB94573332C60C"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AF9370602D2C04E}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM CRYE JPC 2.0 GL Modular Vest"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GL_AbdomenPanel {
+     Prefab "{EE5BD0B76419DCAE}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GL_AbdomenPanel.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_GL_AbdomenPanel "{6AFCA2680F2E7F37}" {
+     }
+    }
+    LoadoutSlotInfo GLPMag_Full {
+     Prefab "{ADD19C221634692B}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GLPMag_Full.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_GLPMag_Full "{6AF4EE70B6398F77}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Chemlights {
+     Prefab "{D4245F30F2E225DB}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Chemlights "{6AFF451894BB52CA}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Patch {
+     Prefab "{72E9F3544986EC16}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Patch.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Patch "{6AF51ACF7A32B6BC}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Pouch_Frag_01 {
+     Prefab "{497DCECC8C3B7328}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Pouch_Frag_01.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Pouch_Frag_01 "{6AF1B9B51C1282E8}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Pouch_Frag_02 {
+     Prefab "{4673D41C5119577D}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Pouch_Frag_02.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Pouch_Frag_02 "{6AFFD44DD087A20A}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Pouch_SS_Spud_L_Mag {
+     Prefab "{C6117A08E3291A9F}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Pouch_SS_Spud_L_Mag.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_L_Mag "{6AFE4D1D604885E3}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Pouch_SS_Spud_R_Mag {
+     Prefab "{895285A8BB9E2A46}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Pouch_SS_Spud_R_Mag.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Pouch_SS_Spud_R_Mag "{6AFB2C3CA3C97BD3}" {
+     }
+    }
+    LoadoutSlotInfo Rifle_Pouch_SS_V {
+     Prefab "{E8F0EF6F2A9E9074}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Pouch_SS_V.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_Rifle_Pouch_SS_V "{6AF534D24D899DB5}" {
+     }
+    }
+   }
+   WornModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   ItemModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   DeflatedModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+  }
+ }
+}

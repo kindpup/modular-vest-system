@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AE5AEE877246C7D"
+ components {
+  Persistence "{6AE26FE3A0D9BC96}" {
+  }
+  SignalsManagerComponent "{6AE6B9A2AFEFAC4B}" {
+  }
+  ACM_EquipmentStorageComponent "{6AE67FD6B33B238E}" {
+   Attributes SCR_ItemAttributeCollection "{6AE0619BC1C73B66}" {
+    ItemDisplayName UIInfo "{6AE268D3DBF6C931}" {
+     Name "RTG Dump Pouch (Rolled Down)"
+     Description "TYR Gunfighter MAB V2 dump pouch, deployed"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AE5B68F7C84318E}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AE51648AB1264E4}" {
+      PreviewWornModel 1
+      PreviewModel "{9EE872A56F6AA825}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V1_Pouch_ADA_Shingle_Single_M4_01_Pouch_RTG_Dump_Rolled_Down.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AE2C9DB16E52A7B}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AEBFA40FB66843F}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AEC5913E404ECCB}" {
+     }
+     PreviewRenderAttributes "{6AEC73E516B833EB}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AE3440857BAE86E}" {
+   Object "{9EE872A56F6AA825}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V1_Pouch_ADA_Shingle_Single_M4_01_Pouch_RTG_Dump_Rolled_Down.xob"
+  }
+  SCR_SoundDataComponent "{6AE588789385BE4A}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AECEEC7E47C9B24}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AE28591D5A57936}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AED272D4043022B}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AE793A6BB78F331}" {
+   AreaType ACM_Belt_Dump_Pouch "{6AEB45EC4C4CCC1D}" {
+   }
+   WornModel "{9EE872A56F6AA825}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V1_Pouch_ADA_Shingle_Single_M4_01_Pouch_RTG_Dump_Rolled_Down.xob"
+   ItemModel "{9EE872A56F6AA825}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V1_Pouch_ADA_Shingle_Single_M4_01_Pouch_RTG_Dump_Rolled_Down.xob"
+  }
+  ActionsManagerComponent "{6AECB5F2374E1B17}" {
+   ActionContexts {
+    UserActionContext "{6AE075637ED0F0C3}" {
+     UIInfo SCR_ActionContextUIInfo "{6AEE3A41798531DA}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AEDCE2A9F56DF56}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AE68E76E2130A90}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE94A712AD1713E}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AEDFA7D2D43A588}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE885BB35EB64A2}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AE9CF891659F4E2}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AE9C4C8A8D39360}" {
+  }
+ }
+}

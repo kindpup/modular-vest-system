@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{05C341294A524385}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW_Pouch_TQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

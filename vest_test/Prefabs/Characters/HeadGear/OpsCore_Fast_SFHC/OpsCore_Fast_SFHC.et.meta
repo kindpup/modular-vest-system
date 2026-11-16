@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E2E995F8243AFE33}Prefabs/Characters/HeadGear/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

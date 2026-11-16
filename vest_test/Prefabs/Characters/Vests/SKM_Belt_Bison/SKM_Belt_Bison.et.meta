@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{51EAB0574A129E73}Prefabs/Characters/Vests/SKM_Belt_Bison/SKM_Belt_Bison.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

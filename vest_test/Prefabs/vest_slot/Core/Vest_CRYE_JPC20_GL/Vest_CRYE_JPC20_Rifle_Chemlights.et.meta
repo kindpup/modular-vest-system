@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D4245F30F2E225DB}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_Rifle_Chemlights.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

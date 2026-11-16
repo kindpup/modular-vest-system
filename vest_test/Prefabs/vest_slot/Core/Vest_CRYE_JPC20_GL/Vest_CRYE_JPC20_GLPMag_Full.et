@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF0C761B08F32C9"
+ components {
+  Persistence "{6AF74113F46ECDDB}" {
+  }
+  SignalsManagerComponent "{6AF641DC557B3D6E}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF156417AD88DCD}" {
+   Attributes SCR_ItemAttributeCollection "{6AF70B9754758518}" {
+    ItemDisplayName UIInfo "{6AF647BFD1B046EA}" {
+     Name "CRYE Mag Pouches (Full)"
+     Description "CRYE JPC 2.0 GL Modular Vest - CRYE Mag Pouches (Full)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFB85B287996B9A}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF38401C7E189B8}" {
+      PreviewWornModel 1
+      PreviewModel "{D5DF775BE730E730}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GLPMag_Full.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFE73B145F979AB}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF57391FCAB4F2E}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF83E560EB4B463}" {
+     }
+     PreviewRenderAttributes "{6AFD82C5E840197C}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF5674FD9DD0269}" {
+   Object "{D5DF775BE730E730}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GLPMag_Full.xob"
+  }
+  SCR_SoundDataComponent "{6AF8DC241C6A043C}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFC48170EB87BCC}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF79D3287EF2B04}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AFB3BDBAA9AC961}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF53818AFD55D6C}" {
+   AreaType ACM_Vest_JPC20_GLPMag_Full "{6AFD6942637A3D5E}" {
+   }
+   WornModel "{D5DF775BE730E730}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GLPMag_Full.xob"
+   ItemModel "{D5DF775BE730E730}XOB/Vest_CRYE_JPC20_GL/Vest_CRYE_JPC20_GLPMag_Full.xob"
+  }
+  ActionsManagerComponent "{6AFB13BC7292339A}" {
+   ActionContexts {
+    UserActionContext "{6AF4A1739C9F0FC9}" {
+     UIInfo SCR_ActionContextUIInfo "{6AFAFFD1CEC5A5B1}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFBEB80813E1741}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFAF9D9BF3EFBEF}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFDF0DAB53524F9}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF8CBAE6C8DB02E}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF0B099AED1A7D6}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF7096D925389F3}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AF91588BE3988D0}" {
+  }
+ }
+}

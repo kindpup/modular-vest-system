@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AFE098821964107"
+ components {
+  Persistence "{6AF1F9DFDDE4E37E}" {
+  }
+  SignalsManagerComponent "{6AF5B398CB46AE4B}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFE82B1184842E5}" {
+   Attributes SCR_ItemAttributeCollection "{6AFB5E0D63A24816}" {
+    ItemDisplayName UIInfo "{6AF4168C12AAE634}" {
+     Name "Tourniquet"
+     Description "CRYE AVS V2 Modular Vest - Tourniquet"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF56CC3011154E2}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AFF3E2BA3BAD65C}" {
+      PreviewWornModel 1
+      PreviewModel "{6AFAB5D9B922B8AB}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_TQ.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFF71A129C6FBFF}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF10DDC7EEE562D}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFD2C0D3A9F6484}" {
+     }
+     PreviewRenderAttributes "{6AF87313CDA5C64B}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFF009BC1FE7A76}" {
+   Object "{6AFAB5D9B922B8AB}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_TQ.xob"
+  }
+  SCR_SoundDataComponent "{6AFD4D04276EA9EF}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF23CF7F05BD4B9}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF5501161B2C553}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AFDB8C1257A7B2C}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AFD05BE3BD35479}" {
+   AreaType ACM_Vest_AVS_V2_TQ "{6AF03E5C28D325DB}" {
+   }
+   WornModel "{6AFAB5D9B922B8AB}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_TQ.xob"
+   ItemModel "{6AFAB5D9B922B8AB}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_TQ.xob"
+  }
+  ActionsManagerComponent "{6AF6DFCBF3D18358}" {
+   ActionContexts {
+    UserActionContext "{6AF3B4F70EDEDB4F}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF8AE6D5DA9848E}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFE8673558E1ABA}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFF68E69D9D662F}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF29C3B133E68B0}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF018A278A3E5B5}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFAC2600856A3AD}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF039EC8F5855F4}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFC7383FAB35D8F}" {
+  }
+ }
+}

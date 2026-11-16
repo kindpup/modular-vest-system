@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AE4BB8CBD5F89BE"
+ components {
+  Persistence "{6AEA97C3032CB492}" {
+  }
+  SignalsManagerComponent "{6AED496274286A60}" {
+  }
+  ACM_EquipmentStorageComponent "{6AE98B450B033E6C}" {
+   Attributes SCR_ItemAttributeCollection "{6AEC5259D81E28A1}" {
+    ItemDisplayName UIInfo "{6AE92F6F9D4F2AE5}" {
+     Name "CRYE Frag Pouch"
+     Description "TYR Gunfighter MAB V2 grenade pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AEA5B2A30D6F00A}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AEAF63F2A2F5541}" {
+      PreviewWornModel 1
+      PreviewModel "{92BE1265AA9AF599}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_CRYE_Frag.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AEACFD344EA2326}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AECDE0F247E552C}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AE21244993CAA8F}" {
+     }
+     PreviewRenderAttributes "{6AE0321268C916A5}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AE929F8F9975126}" {
+   Object "{92BE1265AA9AF599}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_CRYE_Frag.xob"
+  }
+  SCR_SoundDataComponent "{6AEEC5B7B4642682}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AE1CF7A37DFDCB8}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AEB093146E17F91}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AE66F5D0A58038E}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AE6C66B556E70AC}" {
+   AreaType ACM_Belt_Nade_Slot "{6AE7976FF7B74359}" {
+   }
+   WornModel "{92BE1265AA9AF599}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_CRYE_Frag.xob"
+   ItemModel "{92BE1265AA9AF599}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_CRYE_Frag.xob"
+  }
+  ActionsManagerComponent "{6AE6D8EB83707448}" {
+   ActionContexts {
+    UserActionContext "{6AE8CDC2AE2E6D5F}" {
+     UIInfo SCR_ActionContextUIInfo "{6AE79198CB76705B}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AE5261A0440C830}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AEE1D87D7ECE8CE}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE57F0AEA4CA9D3}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AE82FD4307C072E}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AEFBB579DFCF22F}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AE4709259EC61A0}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AEBD379DEDDB050}" {
+  }
+ }
+}

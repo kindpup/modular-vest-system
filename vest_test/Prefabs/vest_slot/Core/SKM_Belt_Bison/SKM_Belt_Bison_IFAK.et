@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF3517F2C8FD346"
+ components {
+  Persistence "{6AF57ED119409B6B}" {
+  }
+  SignalsManagerComponent "{6AF2DB294A64850E}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF94852CEACA66C}" {
+   Attributes SCR_ItemAttributeCollection "{6AF5023127155131}" {
+    ItemDisplayName UIInfo "{6AF4F55BFDDC0E2F}" {
+     Name "IFAK V3 Pouch"
+     Description "Bison Modular Belt - IFAK V3 Pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF6B5AEBF60CAAA}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AFEEF2687C2D8E2}" {
+      PreviewWornModel 1
+      PreviewModel "{E364D449BDB2DE5E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_IFAK.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFA6AF95ADBCD8B}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF3003B1F25B3A3}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF3537F48EF2D69}" {
+     }
+     PreviewRenderAttributes "{6AFDD6A493433A31}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFB9DF5123B2C31}" {
+   Object "{E364D449BDB2DE5E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_IFAK.xob"
+  }
+  SCR_SoundDataComponent "{6AF5FADA7729C0BA}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF842E0A219CE62}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AFD3877DD22E864}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AF89B7787D46010}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF3D0E31D9A074D}" {
+   AreaType ACM_Belt_Bison_IFAK "{6AF1620C2FE152F5}" {
+   }
+   WornModel "{E364D449BDB2DE5E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_IFAK.xob"
+   ItemModel "{E364D449BDB2DE5E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_IFAK.xob"
+  }
+  ActionsManagerComponent "{6AF7345F751D2EDA}" {
+   ActionContexts {
+    UserActionContext "{6AF99BEEFE29FCCB}" {
+     UIInfo SCR_ActionContextUIInfo "{6AFCE23588802D6C}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFDCEC5173F2D4A}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AF3357A321392DA}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFCBF6C3558CC99}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF714E456BC7AF5}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF82D8AB4D63487}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AFDAB182D3E2838}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFB8C23F8EF2189}" {
+  }
+ }
+}

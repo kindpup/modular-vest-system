@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AECAA41844EEE42"
+ components {
+  Persistence "{6AED65B5F3392D7A}" {
+  }
+  SignalsManagerComponent "{6AE4F022B32D59AA}" {
+  }
+  ACM_EquipmentStorageComponent "{6AE6C90F11EE5806}" {
+   Attributes SCR_ItemAttributeCollection "{6AE22056CF6CE4E0}" {
+    ItemDisplayName UIInfo "{6AE65D592423C0BC}" {
+     Name "PMAG GEN3 M3 30rd (Belt)"
+     Description "Rifle magazine seated in the ADA shingle pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AE7CA4A567D08E4}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AEC9D0C2C5A25AD}" {
+      PreviewWornModel 1
+      PreviewModel "{80D8FEFFC5F6D021}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_01.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AEAAA5CEC62ADED}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AE449FAC32FFDC9}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AE4A44A6B5019F7}" {
+     }
+     PreviewRenderAttributes "{6AEA4C1104C870FE}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AE54C7045306651}" {
+   Object "{80D8FEFFC5F6D021}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_01.xob"
+  }
+  SCR_SoundDataComponent "{6AED29DF1AE92974}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AE3885AC77ECED8}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AE1CEEC98DE2D5C}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AE033160FCDE192}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AE39BE98357A006}" {
+   AreaType ACM_Belt_TYR_MAB_V2_Mag_01 "{6AE4F8CFF612077C}" {
+   }
+   WornModel "{80D8FEFFC5F6D021}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_01.xob"
+   ItemModel "{80D8FEFFC5F6D021}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Mag_01.xob"
+  }
+  ActionsManagerComponent "{6AE240134FF6EB77}" {
+   ActionContexts {
+    UserActionContext "{6AE576C7BEF1216B}" {
+     UIInfo SCR_ActionContextUIInfo "{6AE86F6A738F7F33}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AEB1C72F37F3B31}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AE7C75A30744593}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE445D066CC65D8}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AED863932C61A29}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AEFDF50904A38AD}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AE1D71DE47BB0CB}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AE70FC536D774D4}" {
+  }
+ }
+}

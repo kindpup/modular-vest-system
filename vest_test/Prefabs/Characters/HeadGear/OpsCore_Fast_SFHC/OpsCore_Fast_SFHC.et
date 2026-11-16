@@ -1,0 +1,86 @@
+GameEntity : "{24ADFCA3516E758B}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_base.et" {
+ ID "6AFBF7EB59755EAC"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AF2AC9C38916230}" {
+  }
+  ACM_ClothNodeStorageComponent "{6AF0BB84E14FCA0B}" {
+   Attributes SCR_ItemAttributeCollection "{6AF1FF87DE45B4B4}" {
+    ItemDisplayName UIInfo "{6AF30ABD7A28F427}" {
+     Name "ACM OpsCore FAST SFHC"
+     Description "ACM OpsCore FAST SFHC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFDD3B19EC14B1C}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6AF0F57F0116CEFA}" {
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "ACM OpsCore FAST SFHC"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo ACM_AVS_M_BatteryPack {
+     AreaType ACM_AVS_M_BatteryPack "{6AFB5389B20CAE6F}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_BatteryPack_Jack {
+     AreaType ACM_AVS_M_BatteryPack_Jack "{6AF161EA212451FA}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_EarPro_Mount_Wire {
+     AreaType ACM_AVS_M_EarPro_Mount_Wire "{6AFC373DE950C5D6}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_EarPro_OpsCore_AMP {
+     AreaType ACM_AVS_M_EarPro_OpsCore_AMP "{6AFA693947373F00}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_Light_Left {
+     AreaType ACM_AVS_M_Light_Left "{6AF8F2E6FA50B264}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_Light_right {
+     Offset 0 0.0156 0
+     AreaType ACM_AVS_M_Light_right "{6AF59A5D29D65812}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_NVG_Mount {
+     AreaType ACM_AVS_M_NVG_Mount "{6AF204A81309EDB9}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_Patch_Left {
+     AreaType ACM_AVS_M_Patch_Left "{6AF42D553E3CADEB}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_Patch_Right {
+     AreaType ACM_AVS_M_Patch_Right "{6AF6997DA227B31E}" {
+     }
+    }
+    LoadoutSlotInfo ACM_AVS_M_Strobe {
+     AreaType ACM_AVS_M_Strobe "{6AF537822EA02C69}" {
+     }
+    }
+    LoadoutSlotInfo ACM_CounterWeight {
+     Prefab "{65C3B3354A8354C1}Prefabs/vest_slot/Core/HeadGear/ACM_CounterWeight.et"
+     AreaType ACM_AVS_M_CounterWeight "{6AFC4D0E701CF961}" {
+     }
+    }
+    LoadoutSlotInfo Mowhawk {
+     AreaType ACM_AVS_M_Mowhawk "{6AF8C096CA96B641}" {
+     }
+    }
+   }
+   WornModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+   ItemModel "{10F2D0419D848662}XOB/OpsCore_Fast_SFHC/OpsCore_Fast_SFHC.xob"
+  }
+ }
+}

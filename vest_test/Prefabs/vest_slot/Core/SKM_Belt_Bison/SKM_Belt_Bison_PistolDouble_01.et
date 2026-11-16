@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF0F1AA856E25A7"
+ components {
+  Persistence "{6AF009D41605FA53}" {
+  }
+  SignalsManagerComponent "{6AF0EB9C5A7D482F}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFAB73C0EE5DFB4}" {
+   Attributes SCR_ItemAttributeCollection "{6AFC1958A85B6B51}" {
+    ItemDisplayName UIInfo "{6AF467CF1882BD0D}" {
+     Name "Double Pistol Mag Pouch 01"
+     Description "Bison Modular Belt - Double Pistol Mag Pouch 01"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AFB4BA2E30D5400}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF3ED64959A3D62}" {
+      PreviewWornModel 1
+      PreviewModel "{FD24E874A097C61E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_01.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AF70F178BA88F5D}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF77B7EFC55DF9A}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFB48E95D584676}" {
+     }
+     PreviewRenderAttributes "{6AF50099D91600AE}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AFD21336FA97B3A}" {
+   Object "{FD24E874A097C61E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_01.xob"
+  }
+  SCR_SoundDataComponent "{6AFEC62096BE995B}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AFA7EA011738140}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AFB4DA940C91FBC}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AFF658388F76679}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF5133A81E33AE0}" {
+   AreaType ACM_Belt_Pistol_Mag_Pouch "{6AF1099A6900867E}" {
+   }
+   WornModel "{FD24E874A097C61E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_01.xob"
+   ItemModel "{FD24E874A097C61E}XOB/SKM_Belt_Bison/SKM_Belt_Bison_PistolDouble_01.xob"
+  }
+  ActionsManagerComponent "{6AF544C498BF228D}" {
+   ActionContexts {
+    UserActionContext "{6AF6000FD03BBB75}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF83F7F958BE242}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AFE773FF21D7E17}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFD0A0677F227D3}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF83C3F7BFC48AE}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF0A8F3A700D9CB}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFF24AE23F3BAD3}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF402C6071146C5}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFDEE8D0C368BD8}" {
+  }
+ }
+}

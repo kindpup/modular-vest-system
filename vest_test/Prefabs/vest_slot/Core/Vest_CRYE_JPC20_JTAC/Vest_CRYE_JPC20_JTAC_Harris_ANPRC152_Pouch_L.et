@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AFB985EC7FC258B"
+ components {
+  Persistence "{6AF173824F0E4D9F}" {
+  }
+  SignalsManagerComponent "{6AF8BF4CF781E252}" {
+  }
+  ACM_EquipmentStorageComponent "{6AF2A063C4A32DF8}" {
+   Attributes SCR_ItemAttributeCollection "{6AF3BDBE614421B3}" {
+    ItemDisplayName UIInfo "{6AF2B90CE6B1965C}" {
+     Name "AN/PRC-152 Pouch (L)"
+     Description "CRYE JPC 2.0 JTAC Modular Vest - AN/PRC-152 Pouch (L)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF382FF3B102A54}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF48CBF2D4D3EFD}" {
+      PreviewWornModel 1
+      PreviewModel "{B4063835EF7DB9F9}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_L.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AF9F7CD6ABDD8BC}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF3B93029956A6D}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AF75B32F745D4CD}" {
+     }
+     PreviewRenderAttributes "{6AF5A70C4BCE54F9}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF2A1D29D23CBB5}" {
+   Object "{B4063835EF7DB9F9}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_L.xob"
+  }
+  SCR_SoundDataComponent "{6AF8ABDAFF108A73}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF6F3AAC1BEBBD2}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF812D686F20858}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AFBD5720D863B04}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF6C0FE4B073653}" {
+   AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Pouch_L "{6AF4CDCD1907A94D}" {
+   }
+   WornModel "{B4063835EF7DB9F9}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_L.xob"
+   ItemModel "{B4063835EF7DB9F9}XOB/JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_L.xob"
+  }
+  ActionsManagerComponent "{6AFA36220A6D6E3C}" {
+   ActionContexts {
+    UserActionContext "{6AFDEC1806D953C6}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF83CE17D448CCA}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AF565D1B67E039E}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AFA76E074494781}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFFB3D154A0B04E}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF7D56D10885A6D}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF629D0CFA0C302}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AF85C956B9CC6B9}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFD7DD4E4BE09FA}" {
+  }
+ }
+}

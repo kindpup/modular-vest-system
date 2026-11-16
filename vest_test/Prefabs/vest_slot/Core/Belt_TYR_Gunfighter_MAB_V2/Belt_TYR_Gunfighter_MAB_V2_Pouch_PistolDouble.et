@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AEB3359EA13F943"
+ components {
+  Persistence "{6AE6C7CFF3E70601}" {
+  }
+  SignalsManagerComponent "{6AEBE39AADF90653}" {
+  }
+  ACM_EquipmentStorageComponent "{6AEEF51DC6905EA8}" {
+   Attributes SCR_ItemAttributeCollection "{6AE10DD899567069}" {
+    ItemDisplayName UIInfo "{6AEB123B335141F9}" {
+     Name "Double Pistol Mag Pouch"
+     Description "TYR Gunfighter MAB V2 pistol mag pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AE015A7B113568F}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AE1E8E0A764918E}" {
+      PreviewWornModel 1
+      PreviewModel "{F4E60C9CC873A703}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_PistolDouble.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AEEAC1B5B1D4857}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AEDDE08F155F97D}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AE6EAFECE7977A5}" {
+     }
+     PreviewRenderAttributes "{6AE4EE3339D85A10}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AE32E0E57CAA493}" {
+   Object "{F4E60C9CC873A703}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_PistolDouble.xob"
+  }
+  SCR_SoundDataComponent "{6AEB04D781FDDB97}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AE05A74B24A22FA}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AE5188DFD6A48A6}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AE214B4EA4E2E1D}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AEB7F39C8F9F823}" {
+   AreaType ACM_Belt_Pistol_Mag_Pouch "{6AE8BF03A95DE337}" {
+   }
+   WornModel "{F4E60C9CC873A703}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_PistolDouble.xob"
+   ItemModel "{F4E60C9CC873A703}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Pouch_PistolDouble.xob"
+  }
+  ActionsManagerComponent "{6AED88B216ED50AD}" {
+   ActionContexts {
+    UserActionContext "{6AE032A4D3E67F5E}" {
+     UIInfo SCR_ActionContextUIInfo "{6AE192EC071AF8EA}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AE7ACDAAE72E72F}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AEDE47A4D39FE49}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE1313C42D060F9}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AED6B4893C22198}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AED406FB91517E6}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AE46320B910D15A}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AE92569CCBE6459}" {
+  }
+ }
+}

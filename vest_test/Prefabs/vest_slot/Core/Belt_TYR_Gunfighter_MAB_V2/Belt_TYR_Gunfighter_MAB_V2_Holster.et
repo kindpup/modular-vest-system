@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AE933C59BBD4967"
+ components {
+  Persistence "{6AE564BEED717C91}" {
+  }
+  SignalsManagerComponent "{6AEBA3CFC52FDD03}" {
+  }
+  ACM_EquipmentStorageComponent "{6AE3337496B295C1}" {
+   Attributes SCR_ItemAttributeCollection "{6AEB335BE231DC1A}" {
+    ItemDisplayName UIInfo "{6AE08C760120A593}" {
+     Name "Safariland Holster"
+     Description "TYR Gunfighter MAB V2 pistol holster"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AE23DE0987A5555}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AE56D53CC1C9A16}" {
+      PreviewWornModel 1
+      PreviewModel "{ECC4302E829979CA}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Holster.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AE25F57654D9F86}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AE289CA7989035B}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AE98D50437373A8}" {
+     }
+     PreviewRenderAttributes "{6AE43C5D23EE58CD}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AED3AD04026C1B1}" {
+   Object "{ECC4302E829979CA}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Holster.xob"
+  }
+  SCR_SoundDataComponent "{6AEE695EDB152F2A}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AE5AE146584147D}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AE76BD1B0B554D9}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AE1F618A83F3B44}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AE7F837B60DE65C}" {
+   AreaType ACM_Belt_Holster "{6AEED951501E29EA}" {
+   }
+   WornModel "{ECC4302E829979CA}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Holster.xob"
+   ItemModel "{ECC4302E829979CA}XOB/Belt_TYR_Gunfighter_MAB_V2/Belt_TYR_Gunfighter_MAB_V2_Holster.xob"
+  }
+  ActionsManagerComponent "{6AE4B0DE1219869C}" {
+   ActionContexts {
+    UserActionContext "{6AEE64952A1F4C75}" {
+     UIInfo SCR_ActionContextUIInfo "{6AE7D352314CC97B}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AE73BEF5D857B37}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AE2934DDB4A5E54}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE26582027479EA}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AE3CFBC703D7A70}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE4D70792387B9F}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AE07C0D21B0DA28}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AE66EC3AF461CCC}" {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3903F254B85C5DB3}Prefabs/vest_slot/Core/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_Spiritus_V.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

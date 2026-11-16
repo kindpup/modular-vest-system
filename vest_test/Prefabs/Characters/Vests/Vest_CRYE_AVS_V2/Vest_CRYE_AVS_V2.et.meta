@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B932BB3C5B5BB258}Prefabs/Characters/Vests/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

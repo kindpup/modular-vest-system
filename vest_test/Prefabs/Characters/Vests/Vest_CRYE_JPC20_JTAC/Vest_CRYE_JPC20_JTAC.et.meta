@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AE8C625CC010A03B}Prefabs/Characters/Vests/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

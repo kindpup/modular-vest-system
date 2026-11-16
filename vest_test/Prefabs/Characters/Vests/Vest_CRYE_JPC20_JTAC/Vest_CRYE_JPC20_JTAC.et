@@ -1,0 +1,86 @@
+GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_base.et" {
+ ID "6AF361DD1C26A2F8"
+ components {
+  ACM_ClothAreaExtensionComponent "{6AFB2D3F9476AAA1}" {
+  }
+  ACM_ClothNodeStorageComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{C81EDCB0752D42BA}" {
+     Name "ACM CRYE JPC 2.0 JTAC Modular Vest"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ANPRC152_Pouch_L {
+     Prefab "{C73DB4FB938D965B}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_L.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Pouch_L "{6AF03B736D32ECA1}" {
+     }
+    }
+    LoadoutSlotInfo ANPRC152_Radio_L {
+     Prefab "{48DB7122B50CC4BB}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_L.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Radio_L "{6AF428E224E3ED7D}" {
+     }
+    }
+    LoadoutSlotInfo ANPRC152_Pouch_R {
+     Prefab "{7362DD1228664DD3}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Pouch_R.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Pouch_R "{6AF3FD6363FBAE35}" {
+     }
+    }
+    LoadoutSlotInfo ANPRC152_Radio_R {
+     Prefab "{1E7E078DA2F137F2}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Harris_ANPRC152_Radio_R.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Harris_ANPRC152_Radio_R "{6AF8292627137DAC}" {
+     }
+    }
+    LoadoutSlotInfo Patch {
+     Prefab "{E875391AB939FD5F}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Patch.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Patch "{6AF09371CFF4D196}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_CRYE_AVS {
+     Prefab "{A6F456EEF403BB05}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Pouch_CRYE_AVS.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Pouch_CRYE_AVS "{6AF6911310B28E2B}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_SS_S {
+     Prefab "{4DAB41EF172F248C}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Pouch_SS_S.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Pouch_SS_S "{6AFF96F47AF20B15}" {
+     }
+    }
+    LoadoutSlotInfo Pouch_SS_Spud {
+     Prefab "{21928147327FED4C}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_Pouch_SS_Spud.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_Pouch_SS_Spud "{6AF1FBEAB4FCE43E}" {
+     }
+    }
+    LoadoutSlotInfo S7_Case {
+     Prefab "{293ECB4D2D851BF9}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_S7_Case.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_S7_Case "{6AFCFDE1B3303B0D}" {
+     }
+    }
+    LoadoutSlotInfo TQ {
+     Prefab "{E0B008095BCE0C83}Prefabs/vest_slot/Core/Vest_CRYE_JPC20_JTAC/Vest_CRYE_JPC20_JTAC_TQ.et"
+     InheritParentSkeleton 1
+     AreaType ACM_Vest_JPC20_JTAC_TQ "{6AF3DCBB37219A63}" {
+     }
+    }
+   }
+   WornModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   ItemModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+   DeflatedModel "{884BE51D75B5877F}XOB/Vest_CRYE_JPC20_SAW/Vest_CRYE_JPC20_SAW.xob"
+  }
+ }
+}

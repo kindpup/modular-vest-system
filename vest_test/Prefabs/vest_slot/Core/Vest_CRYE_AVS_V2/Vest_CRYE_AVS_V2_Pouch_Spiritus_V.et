@@ -1,0 +1,103 @@
+GenericEntity {
+ ID "6AF9D68B936360DB"
+ components {
+  Persistence "{6AF49DD6AEDAF206}" {
+  }
+  SignalsManagerComponent "{6AF37DB666125DC5}" {
+  }
+  ACM_EquipmentStorageComponent "{6AFA7550A0ED9BB9}" {
+   Attributes SCR_ItemAttributeCollection "{6AF69468BDE05B15}" {
+    ItemDisplayName UIInfo "{6AF11CBDF7A04ED5}" {
+     Name "Spiritus Vertical Pouch"
+     Description "CRYE AVS V2 Modular Vest - Spiritus Vertical Pouch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AF89C34338A8B88}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AF21EEBE2288E3C}" {
+      PreviewWornModel 1
+      PreviewModel "{5449A5BD02D5D428}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_Spiritus_V.xob"
+     }
+    }
+   }
+   CapacityCoefficient 0.15
+  }
+  InventoryItemComponent "{6AFD4DCD36C77424}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6AF9A9AF33B637D9}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{6AFE0A30E76B8953}" {
+     }
+     PreviewRenderAttributes "{6AF81178F19DCC09}" {
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{6AF77113CC4393D7}" {
+   Object "{5449A5BD02D5D428}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_Spiritus_V.xob"
+  }
+  SCR_SoundDataComponent "{6AFB32FBE79E0FF4}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AF659461876CBA4}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AF6E0410B3B9ADB}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AFB122D19EE6171}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AF9EAE0161E6ED1}" {
+   AreaType ACM_Vest_AVS_V2_Pouch_Spiritus_V "{6AFBBC6DF96A1743}" {
+   }
+   WornModel "{5449A5BD02D5D428}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_Spiritus_V.xob"
+   ItemModel "{5449A5BD02D5D428}XOB/Vest_CRYE_AVS_V2/Vest_CRYE_AVS_V2_Pouch_Spiritus_V.xob"
+  }
+  ActionsManagerComponent "{6AFB07AE1FBD73C0}" {
+   ActionContexts {
+    UserActionContext "{6AFD02904DE48AE1}" {
+     UIInfo SCR_ActionContextUIInfo "{6AF4F3A71F926360}" {
+     }
+     ContextName "user"
+     Position PointInfo "{6AF7FBF93CEBA7A8}" {
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{6AF336816221C6B8}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AFB1243F9FE98EE}" {
+      Name "#AR-UserAction_AttachToWeapon"
+     }
+    }
+    SCR_PickUpItemAction "{6AF003F5C2039C3C}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6AF85BEF368807AE}" {
+      Name "#AR-Inventory_Pickup"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{6AFB4B6D2272F7DD}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AFDCE5FCFA046A3}" {
+  }
+ }
+}
