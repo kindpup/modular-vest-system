@@ -1,2 +1,6 @@
 MatPBRBasic {
+ AlphaTest 0.5
+ BCRMap "{749F1B4C00E5E9AD}XOB/Vest_CRYE_JPC20_SAW/Data/Miscellaneous_02_BCR.edds"
+ NMOMap "{4C47A0DED992BB33}XOB/Vest_CRYE_JPC20_SAW/Data/Miscellaneous_02_NMO.edds"
+ OpacityMap "{8EB85D942FCF8993}XOB/Vest_CRYE_JPC20_SAW/Data/Miscellaneous_02_A.edds"
 }

@@ -95,8 +95,9 @@ GameEntity : "{CCE569C5F2D46E3D}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_b
      InheritParentSkeleton 1
     }
     LoadoutSlotInfo RDC_Tablet {
-     Prefab "{466834ABBB1042CA}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_RDC_Tablet.et"
-     InheritParentSkeleton 1
+     PivotID "Spine5"
+     AreaType ACM_Vest_AVS_V1_RDC_Tablet "{6AEB5A0000000001}" {
+     }
     }
     LoadoutSlotInfo Scisors {
      Prefab "{E4672F1D6059481A}Prefabs/Characters/Vests/AVS_Modules/AVS_Module_Scisors.et"
